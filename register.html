@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--local stylesheet-->
+    <link href="css/styles.css" rel="stylesheet">
+    <!--fontawesome icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--google fonts integration -->
+    <!-- Splide styles(Carousel)-->
+    <link rel="stylesheet" href="css/splide.min.css">
+
+    <title>Register | Epsychiatry</title>
+    <!--    favicon -->
+    <link href="images/Logo-100px.png" rel="shortcut icon" type="image/jpg"/>
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>  
+        $(function(){ 
+          $("#nav").load("nav.html"); 
+          //$("#footer").load("footer.html");   
+        }); 
+      </script>
+
+    <script src="js/register.js"></script>
+
+</head>
+<body>
+
+<div class="container-fluid nopadding">
+    <!--upper header area starts here-->
+    <div class="upper-section">
+        <p id="upper-id"><i aria-hidden="true" class="fa fa-envelope" style="color: #B1B4B8"></i> <a
+                href="mailto: support@epsychiatry.com.au">support@epsychiatry.com.au</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://www.facebook.com/Epsychiatry.com.au/"><i aria-hidden="true" class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/Epsychiatry_Aus"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UCSuHQY6bpiN_pgdHgC6qqJQ/featured"><i aria-hidden="true"
+                                                                                           class="fa fa-youtube-play"></i></a>
+            <a href="https://www.instagram.com/epsychiatry.au/?hl=en"><i aria-hidden="true" class="fa fa-instagram"></i></a>
+            <a href="https://www.pinterest.com.au/epsychiatry/_created/"><i aria-hidden="true"
+                                                                            class="fa fa-pinterest"></i></a>
+        </p>
+    </div>
+    <!--upper header ares ends here-->
+    <hr>
+
+<!--    nav bar starts here-->
+    <div id="nav"></div>
+<!--    nav bar end here-->
+</div>
+
+<section id="intro">
+    <div class="container-fluid">
+        <div class="row" id="intro-title">
+            <div class="col-lg-12 col-md-12">
+                <h5>This content is password protected. To view it please enter your password below:</h5>
+            </div>
+        </div>
+        <div class="row" id="intro-para">
+            <div class="col-lg-12 col-md-12">
+                <form class="passform" action="reg.html" onsubmit="return passcheck()">
+                    Password : <input type="password" required id="pass1">
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<!-- Site footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                <h6>Contact us</h6> <br>
+                <ul class="footer-links">
+                    <li><a href="mailto:support@epsychiatry.com.au"><i class="fa fa-envelope"></i> support@epsychiatry.com.au</a>
+                    </li>
+                    <br>
+                    <li><a href="tel:0894672272"><i class="fa fa-phone-square"></i> 0894672272</a></li>
+                    <br>
+                    <li><a href="fax:0863130920"><i class="fa fa-fax"></i> 0863130920</a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <h6>Important</h6> <br>
+                <p class="text-justify">This is not an emergency service. Same day consults are not available.
+                    If you are in distress please contact your nearest emergency department,
+                    your local area mental health service triage or dial “000</p>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <h6>Learn More</h6> <br>
+                <ul class="footer-links">
+                    <li><a href="">Psychology via Telehealth Benefits</a></li>
+                    <br>
+                    <li><a href="">Five reasons to see a psychologist</a></li>
+                    <br>
+                    <li><a href="">Professional Mental Health Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2021 Epsychiatry Pty. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ./Footer -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Splide JS(Carousel)-->
+<script src="js/splide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        new Splide('.splide', {
+            type: 'loop',
+            perPage: 6,
+            pagination: false,
+            autoplay: true,
+            perMove: 1,
+            breakpoints: {
+                '1400': {
+                    perPage: 4,
+                    gap: '1rem',
+                },
+                '1040': {
+                    perPage: 3,
+                    gap: '1rem',
+                },
+                '640': {
+                    perPage: 2,
+                    gap: '1rem',
+                },
+                '480': {
+                    perPage: 1,
+                    gap: '1rem',
+                },
+            }
+        }).mount();
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--local stylesheet-->
+    <link href="../../css/styles.css" rel="stylesheet">
+    <!--fontawesome icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--google fonts integration -->
+
+    <title>Agoraphobia</title>
+    <!--    favicon -->
+    <link href="../../images/Logo-100px.png" rel="shortcut icon" type="image/jpg"/>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>  
+        $(function(){ 
+          $("#nav2").load("nav2.html"); 
+          $("#footer").load("footer2.html");   
+        }); 
+      </script>
+
+</head>
+<body>
+
+<div class="container-fluid nopadding">
+    <!--upper header area starts here-->
+    <div class="upper-section">
+        <p id="upper-id"><i aria-hidden="true" class="fa fa-envelope" style="color: #B1B4B8"></i> <a
+                href="mailto: support@epsychiatry.com.au">support@epsychiatry.com.au</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-youtube-play"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-instagram"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-pinterest"></i></a>
+        </p>
+    </div>
+    <!--upper header ares ends here-->
+    <hr>
+    <div id="nav2"></div>
+    <!--navigation bar starts here-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"><img alt="Home" src="../../images/Logo-100px.png"></a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownServices" role="button">Services</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu" role="menu">
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" href="../../templates/services/anxiety-treatment.html">Anxiety</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/what-is-agoraphobia.html">Agoraphobia</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/ocd.html">OCD</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/panic-attacks.html">Panic
+                                        Attacks</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/phobias.html">Phobias</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/separation-anxiety-in-adults.html">Separation
+                                        Anxiety Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/stress-mental-health.html">Stress &
+                                        Mental Health</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/social-anxiety-disorder.html">Social
+                                        Anxiety Disorder</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Developmental</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/relationship-attachment-style.html">Attachment</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/autism-in-adults.html">Autism in
+                                        Adults</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/identity-crisis-feeling-lost-what-can-you-do.html">Identity
+                                        Crisis</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/tic-disorder-tics-motor-tics-and-vocal-tics.html">Tics
+                                        Disorder()</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Eating</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/binge-eating-disorder.html">Binge
+                                        Eating Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/bulimia-nervosa.html">Bulimia
+                                        Nervosa</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Habits</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/caffeine-use-disorder.html">Caffeine
+                                        Use Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/excessive-daydreaming.html">Excessive
+                                        Daydreaming</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/hoarding-disorder.html">Hoarding
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/video-game-addiction.html">Video
+                                        Game Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/impulse-control-disorder.html">Impulse
+                                        Control Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/stealing-(Kleptomania).html">Stealing</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mind-Body</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/chronic-fatigue.html">Chronic
+                                        Fatigue</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/functional-neurological-disorder.html">Functional
+                                        Neurological Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/headaches.html">Headaches</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/pain.html">Pain</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/poor-body-image.html">Poor Body
+                                        Image</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mood</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/adjustment-disorder.html">Adjustment
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/Apathy-Persistent-Depressive-Disorder.html">Apathy</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/bipolar.html">Bipolar</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/cyclothymic-disorder.html">Cyclothymic
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/depression.html">Depression</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/prolonged-grief-reaction.html">Grief
+                                        & Loss</a></li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Lack of
+                                            Interest</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item"
+                                                   href="../../templates/services/lack-of-interest-or-no-interest.html">Lack of
+                                                Interest or No Interest</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/loneliness-and-social-isolation.html">Loneliness</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/low-self-esteem.html">Low Self
+                                        Esteem</a></li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Major
+                                            Depressive Disorder</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item"
+                                                   href="../../templates/services/depression-major-depressive-disorder.html">
+                                                Depression</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/mood-swings-emotional-ups-and-downs.html">Mood Swings</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/persistent-depressive-disorder-dysthymia.html">Persistent
+                                        Depressive Disorder</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Personality-Temprement</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/anger-management.html">Anger
+                                        Management</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/avoidant-personality-disorder.html">Avoidant Personality
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/dependent-personality-disorder.html">Dependent
+                                        Personality
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/impulsivit-&-disinhibition.html">Impulsivity
+                                        &
+                                        Disinhibition</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/narcissism.html">Narcissism – an
+                                        overview of Narcissistic behaviour</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/obsessive-compulsive-personality-disorder.html">Obsessive-Compulsive
+                                        Personality Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/paranoid-personality-disorder.html">Paranoid Personality</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychosis</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/psychosis.html">Psychotic Episode</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Relational</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                           href="#">Conflict</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/services/conflict-resolution.html">Conflict
+                                                resolution</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/pregnancy&mental-health.html">Pregnancy & Mental
+                                        Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Sleep</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/poor-sleep-mental-health.html">Poor Sleep & Mental
+                                        Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Trauma</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/acute-stress-reaction.html">Acute Stress Reaction</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/PTSD.html">PTSD Reaction</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="../../templates/services/gender-dysphoria.html">Gender Dysphoria</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropleft">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownTeam" role="button">Team</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../../templates/team/about-us.html">About us</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/careers.html">Careers</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/clinicians.html">Clinicians</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/contact-us.html">Contact us</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropleft">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownResources" role="button">Resources</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Access</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-eligible-areas.html">Eligibility</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/mental-health-professional.html">Professional
+                                        Mental Health Service</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Counselling</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/resources/counseling-for-men-therapy-for-toxic-masculinity.html">Counseling
+                                        for men</a></li>
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Grief</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/does-grief-counseling-help.html">Does grief
+                                                counselling
+                                                help?</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/does-medicare-cover-grief-counseling.html">Does Medicare cover
+                                                grief counselling?</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/grief-counseling-therapy-to-deal-with-loss.html">Grief
+                                                counseling</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/how-does-grief-counselling-work.html">How does grief
+                                                counselling work</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/is-grief-counseling-for-you.html">Is grief counseling
+                                                for you?</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/workplace-counselling.html">Workplace Counselling</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">FAQ</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/how-can-we-help.html">How can we help</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/how-does-telehealth-work.html">How does telehealth
+                                        work?</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/legal-reports.html">Legal Reports</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-faq.html">Telehealth questions</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Location</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-melbourne-psychologist.html">Melbourne</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-perth-psychologist.html">Perth</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-sydney-psychologist.html">Sydney</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychiatry</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/first-psychiatrist-appointment.html">First Psychiatrist
+                                        Appointment</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/our-telehealth-psychiatry-service.html">Our Telehealth Psychiatry
+                                        Service</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/physical-and-mental-health.html">Physical & Mental
+                                        Health</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/psychiatrist-near-me.html">Psychiatrist near me</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/seeing-your-psychiatrist-online.html">Seeing your psychiatrist
+                                        online</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychology</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Guide</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/bulk-billing-psychologist.html">Bulk Billing
+                                                Psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/five-reasons-to-see-a-psychologist.html">Five reasons to see
+                                                a psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/psychologist-or-psychiatrist.html">Psychologist or
+                                                Psychiatrist?</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/psychology-via-telehealth-benefits.html">Psychology via
+                                                telehealth benefits</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Types</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/what-does-a-clinical-psychologist-do.html">Clinical
+                                                Psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/different-types-of-psychologists-an-overview.html">Different Types of
+                                                Psychologists</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Testing &
+                                            Assessment</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-adhd-test.html">Adult ADHD</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-autism-test.html">Adult autism
+                                                test</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-dyslexia-test.html">Adult Dyslexia
+                                                test</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/dementia-tests.html">Dementia</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/emotional-intelligence-test.html">Emotional
+                                                Intelligence</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/personality-testing.html">Personality
+                                                Testing</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychotherapy</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Acceptance
+                                            and Commitment Therapy</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/acceptance-and-commitment-therapy.html">Acceptance and
+                                                Commitment Therapy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Cognitive
+                                            Behavioural Therapy (CBT)</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/what-is-cbt.html">What is CBT
+                                                (Cognitive Behavioral Therapy)</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/cbt-for-insomnia.html">CBT for
+                                                insomnia</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/trauma-focused-cognitive-behavioral-therapy.html">What is trauma
+                                                focused CBT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/couples-therapy.html">Couples Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/family-therapy.html">Family Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/interpersonal-therapy-for-depression.html">Interpersonal Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/mindfulness-based-cognitive-therapy.html">Mindfulness-based cognitive
+                                        therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/schema-therapy.html">Schema Therapy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../templates/blogs/blog-1.html">Blog</a>
+                    </li>
+                </ul>
+                <div class="d-flex" id="btn-login">
+                    <a class="btn btn-secondary text-white d-flex" href="#">Login</a>
+                </div>
+                <form class="d-flex">
+                    <div class="input-group">
+                        <input aria-label="Search" class="form-control" placeholder="Search" type="search">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav> -->
+    <!--navigation bar ends here-->
+</div>
+
+<section id="blog-article">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h1 style="color: #3D4259 !important;">Agoraphobia</h1>
+            </div>
+        </div>
+
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>>';">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Services</a></li>
+                <li class="breadcrumb-item"><a href="anxiety-treatment.html">Anxiety</a></li>
+                <li aria-current="page" class="breadcrumb-item active" style="color: #54444E;">Agoraphobia</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- para section-->
+<div class="container">
+    <div class="row py-3" style="justify-content: center;">
+        <div class="col-3 col-lg-3 order-2" id="sticky-sidebar">
+            <div class="sticky-top">
+                <div class="nav flex-column">
+                    <a href="#topic-1" class="nav-link">Defining Agoraphobia</a>
+                    <a href="#topic-2" class="nav-link">How common is Agoraphobia?</a>
+                    <a href="#topic-3" class="nav-link">What other anxiety conditions co-occur with Agoraphobia?</a>
+                    <a href="#topic-4" class="nav-link">What are the symptoms of Agoraphobia?</a>
+                    <a href="#topic-5" class="nav-link">What triggers and brings out Agoraphobia?</a>
+                    <a href="#topic-6" class="nav-link">Age of onset</a>
+                    <a href="#topic-7" class="nav-link">Impact of Agoraphobia</a>
+                    <a href="#topic-8" class="nav-link">Assessment for Agoraphobia</a>
+                    <a href="#topic-9" class="nav-link">How to get help?</a>
+                    <a href="#topic-10" class="nav-link">Treatment for Agoraphobia</a>
+                    <a href="#topic-11" class="nav-link">Learning about Agoraphobia</a>
+                    <a href="#topic-12" class="nav-link">Medications</a>
+                    <a href="#topic-13" class="nav-link">Lifestyle factors</a>
+                    <a href="#topic-14" class="nav-link">Supports</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-9 col-lg-9" id="main">
+            <h2 class="mt-3" id="topic-1">Defining Agoraphobia</h2>
+            <p>Agoraphobia is a type of anxiety disorder. It is a fear of being in situations where it might be
+                difficult to leave. A fear that help is not there if bad things were to happen. Agoraphobia is more
+                than just a fear of open spaces. It can be triggered by crowds, being alone or in a confined space.
+                Agoraphobia and panic go hand in hand. </p>
+            <p><img class="img-fluid" src="../../images/Epsychiatry-Services-Anxiety-Agrophobia-1-min_1.webp" alt="Epsychiatry-Services-Anxiety-Agrophobia-1" loading="lazy"></p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-2">How common is Agoraphobia?</h2>
+            <p>2 in every 100 people will likely get Agoraphobia at some point in their lives. It is more common in
+                older people and in women. It is a common mental health condition. Your family doctor will have
+                experience helping people with this condition. Given how common it is, there are many online support
+                groups.</p>
+            <p><br></p>
+
+            <h2 id="topic-3">What other anxiety conditions co-occur with Agoraphobia?</h2>
+            <ul>
+                <li>Panic Disorder</li>
+                <li>Social Anxiety Disorder</li>
+                <li>Phobias</li>
+                <li>PTSD</li>
+            </ul>
+            <p>Firstly panic disorder is often seen with agoraphobia. People with this condition can get a panic attack
+                just thinking about going out of their safe space. Secondly, because they are not meeting new people,
+                they feel anxious in social settings. In addition, depression and drug use can happen. Often as a way
+                of coping.</p>
+            <p><br></p>
+
+            <h2 id="topic-4">What are the symptoms of Agoraphobia?</h2>
+            <p>How agoraphobia is experienced, how bad it gets and how it impacts the quality of life differs from
+                person to person.</p>
+            <h4 class="mt-3"><strong>Physical symptoms</strong></h4>
+            <p>Oftentimes people with agoraphobia avoid their triggers. Therefore they rarely get the signs of
+                agoraphobia. Physical symptoms of agoraphobia are similar to a panic attack and can include:</p>
+            <ul>
+                <li>Increased heart rate and show shallow breaths</li>
+                <li>Nausea, chest pain and feeling sweaty</li>
+                <li>Dizziness and feeling faint</li>
+            </ul>
+
+            <h4 class="mt-3"><strong>Behavioural signs and symptoms</strong></h4>
+            <p>Being stuck at home or avoiding being too far away from home are some of the limiting behaviours of
+                agoraphobia. Also having someone you feel comfortable with or avoiding being in public altogether.
+                In addition, doing your shopping online, exercising indoors or relying on others and sometimes even
+                children to do tasks.</p>
+
+            <h4 class="mt-3"><strong>Thinking styles associated with Agoraphobia</strong></h4>
+            <p>There are certain thinking styles or ways of seeing the world that is associated with agoraphobia.</p>
+            <p>A view that having a panic attack may make you look silly in front of others. Secondly, that a panic
+                attack could mean death. Fear of embarrassment around losing control or losing your sanity in front of
+                others.Concerns that others are looking at you or noticing physical signs of your anxiety. For instance,
+                sweating or shaking.</p>
+            <p>Agoraphobia may also tie into views that the world is unsafe. Finally, self-views of not being good
+                enough or not being capable.</p>
+            <img class="img-fluid" src="../../images/Epsychiatry-Services-Anxiety-Agrophobia-3-min.webp" alt="Epsychiatry-Services-Anxiety-Agrophobia-3" loading="lazy">
+            <p><br></p>
+
+            <h2 id="topic-5">What triggers and brings out Agoraphobia?</h2>
+            <p>Often times Agoraphobia is the result or complication of repeated panic attacks. Fear builds up regarding
+                places or situations panic attacks have happened before.</p>
+            <p>Sometimes living in a dangerous environment for instance in the midst of war or terrorism; we might be
+                afraid to go out in public. A history of personal violence or illness may also make us fearful of being
+                away from a place of safety.</p>
+            <p>Researchers have speculated whether agoraphobia may be due to poor spatial awareness; the layout of
+                shopping malls being unfamiliar and very different from what people are used to. Also, large crowds of
+                people in a tight small space is unusual.</p>
+            <p><br></p>
+
+            <h2 id="topic-6">Age of onset</h2>
+            <h4 class="mt-3"><strong>Is there a specific age?</strong></h4>
+            <p>Compared to other anxiety disorders in particular phobias and separation anxiety disorder, agoraphobia
+                tends to appear at an older age. The 20s to mid-30s appears to be the peak age of onset. It is a chronic
+                condition, with the intensity of symptoms fluctuating over time.</p>
+            <p><br></p>
+
+            <h2 id="topic-7">Impact of Agoraphobia</h2>
+            <p>The personal, social and community cost of Agoraphobia is immense. The loss of potential and disability
+                is palpable in meeting young people with agoraphobia. Careers, family lives and education is impacted
+                when people are afraid to leave their homes</p>
+            <p><br></p>
+
+            <h2 id="topic-8">Assessment for Agoraphobia</h2>
+            <p>Psychologists and doctors often start by asking about details of panic and avoidance behaviours.
+                They will want to know when problems first started and how it has changed over time. It is
+                important for clinicians to know what has worked in the past and the coping strategies used.</p>
+            <p>What Agoraphobia stops a person from doing. Also, understanding the person in terms of their family,
+                community and wider societal culture is important. Agoraphobia like all anxiety disorders is linked
+                with certain thoughts. “The world is unsafe”, “I’m not worthy. a fraud” are some thoughts that lead
+                to people isolating themselves at home.</p>
+            <p>Your doctor might also want to do blood tests. It is not unusual for thyroid and checks for an irregular
+                heartbeat to be done. It is important to know that medical symptoms and agoraphobia can occur together.
+                Especially for new-onset or unusual cases of agoraphobia, it may be worth checking for any medical
+                problems that are also occurring.</p>
+            <p><br></p>
+
+            <h2 id="topic-9">How to get help?</h2>
+            <p>Once it is identified that agoraphobia is driven by fears and worry; a psychologist or psychiatrist is
+                well suited to complete a thorough mental health assessment. They may want to explore avoidant or
+                dependent personality styles, past traumas or poor attachment patterns. Secondly, they will want to
+                know how you cope, anyways other people enable agoraphobia. In addition, questions about past treatments,
+                what has worked and what has not. Finally, what the goals of treatment are.</p>
+            <p><br></p>
+
+            <h2 id="topic-10">Treatment for Agoraphobia</h2>
+            <p>The structure of treatment programs for agoraphobia is similar to that of other anxiety disorders.
+                Firstly, psychoeducation or learning about Agoraphobia. Secondly, self-help techniques, psychology,
+                lifestyle changes and supports are the good frameworks around which to build a treatment plan. Finally,
+                medication can be considered. </p>
+            <p><br></p>
+
+            <h2 id="topic-11">Learning about Agoraphobia</h2>
+            <p>Firstly there are increasing amounts of high-quality educational material online about Agoraphobia.
+                There is different audio, video and written content out there. In addition, therapists usually start
+                treatment with an explanation of symptoms. Understanding allows for better engagement with therapy,
+                ask questions and learning recommendations from your therapist.</p>
+            <p>Speaking with other people who face similar problems helps. Often it is these personal stories,
+                insights that help the most. Also, agoraphobia is a lonely way to live. Connecting and sharing
+                with others can help.</p>
+            <h4 class="mt-3"><strong>Self-help strategies</strong></h4>
+            <p>We will mention 4 self-help strategies below. It helps to be creative. Especially when tackling anxiety
+                conditions. Agoraphobias as we wrote above is an anxiety condition.</p>
+            <ul>
+                <li>Slow down – People want to run and hide when they feel anxious. Instead, try to stay in the same
+                    place. If you are in an elevator, car or bus when it stops get down. Then slowly move to somewhere
+                    out of harm’s way.</li>
+                <li>Mental pictures or using our imagination is a great way to challenge agoraphobia. For instance,
+                    picturing leaving home, stepping into a crowded space can form an exposure practice. Next, take
+                    some slow deep breaths. In addition, mental images can also help in a reverse instance when
+                    agoraphobia is triggered. For instance, thinking of a safe calm space during a panic attack can
+                    lessen arousal.</li>
+                <li>Not fighting panic symptoms triggered by agoraphobia. Instead, focus on something else, distraction
+                    can help calm the body down. If feeling anxious in public, call a friend on your phone.
+                    Thereafter, watch a calming video on your phone.</li>
+                <li>Internet-based apps or self-help books on agoraphobia. There are more and more apps to help people
+                    with anxiety. Similarly, self-help books on anxiety are a great tool.</li>
+            </ul>
+            <h4 class="mt-3"><strong>Psychological strategies</strong></h4>
+            <p>There is a strong evidence base for talking therapies; they have some of the highest success rate and
+                lowest dropout rates of all treatment options. Therapy works by stopping unhelpful thoughts. Firstly,
+                some people with agoraphobia worry that if they have a panic attack outside the home. That they will
+                die or not cope. Psychologists help replace those thoughts with more positive ways of thinking.
+                Behavioural therapy plays an important role. Initially with agoraphobia therapists coach getting
+                to the corner shop. Gradually as confidence builds, the next challenge can be getting to a supermarket
+                and finally a mall.</p>
+            <p>Positive self-talk can also help. Be kind, caring and easy when you speak to yourself. We have a short
+                youtube video on positive self-talk. Visit our channel’s page to learn more. There are also free online
+                worksheets on positive self-talk.</p>
+            <img class="img-fluid" loading="lazy" src="../../images/Epsychiatry-Services-Anxiety-Agrophobia-2-min.webp" alt="Epsychiatry-Services-Anxiety-Agrophobia-2">
+
+            <h2 id="topic-12">Medications</h2>
+            <p>The evidence to support the use of tablets in treating agoraphobia is limited. Selective serotonin
+                reuptake inhibitors (SSRI) and tricyclic antidepressants (TCA) have limited and somewhat conflicting
+                findings when used. There is a lack of scientific findings supporting their use long term. It is
+                important to remain aware of antidepressants adverse and withdrawal effects.</p>
+            <p>Benzodiazepines are sometimes prescribed shorter terms. However, they too have side effects. Outcomes
+                are best when used along with therapy.</p>
+            <p><br></p>
+
+            <h2 id="topic-13">Lifestyle factors</h2>
+            <ul>
+                <li>Avoid stimulants. Smoking nicotine, drinking coffee or sugar-rich drinks might worsen anxiety.</li>
+                <li>Regular exercise can reduce muscle tension, force people to go outside and increase self-confidence.
+                    Invariable people with agoraphobia have low self-esteem. For instance, walking up and down the
+                    street is a great place to start.</li>
+                <li>Long term use of alcohol can perpetuate negative self-views and get in the way of recovery.</li>
+            </ul>
+            <p><br></p>
+
+            <h2 id="topic-14">Supports</h2>
+            <p>Informal supports are equally and if not more important than professional supports. Ideally friends
+                and family should be aware of the anxiety and supportive in recovery. It helps to have a person you
+                trust. A support person can take you the first time. Help you build your confidence. Following this,
+                you may be able to do the task alone.</p>
+            <p>Support can also come in the form of a pet. Talking your dog outside for a walk. Being outside with a
+                trusted pet may be enough to drop down the anxiety. Plus its good exercise for you and the dog. Comfort
+                animals are more and more been seen as a help for people anxious about being outside.</p>
+            <p>There are also online support groups; Australia based and overseas. People with agoraphobia feel alone,
+                support groups challenge that view. A healthy support group provides tips, advice, provide emotional
+                support and motivation. A quick search online can help find support groups.</p>
+            <p>At Epsychiatry we have clients with agoraphobia. In fact, people with agoraphobia often turn to online
+                therapists to get their lives back on track. Send our friendly support team an email. Secondly, you can
+                reach us by web inquiry or a phone call to learn more about how we can help. You will need a letter from
+                your GP to see one of our doctors or psychologists.</p>
+        </div>
+    </div>
+</div>
+<!-- end of para section-->
+
+<!-- Footer -->
+<div id="footer"></div>
+<!-- Site footer -->
+<!-- <footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                <h6>Contact us</h6>
+                <form>
+                    <div class="mb-3">
+                        <input class="form-control" id="contact-us-name" placeholder="Name*" required
+                               style="max-width: 350px" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" id="contact-us-email" placeholder="E-mail*" required
+                               style="max-width: 350px" type="email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="contact-us-message" placeholder="Message*" required
+                                  rows="5" style="max-width: 350px"></textarea>
+                    </div>
+                    <button class="btn btn-primary" style="margin-bottom: 5px;" type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <h6>Important</h6>
+                <p class="text-justify">This is not an emergency service. Same day consults are not available.
+                    If you are in distress please contact your nearest emergency department,
+                    your local area mental health service triage or dial “000</p>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <h6>Learn More</h6>
+                <ul class="footer-links">
+                    <li><a href="">Psychology via Telehealth Benefits</a></li>
+                    <li><a href="">Five reasons to see a psychologist</a></li>
+                    <li><a href="">Professional Mental Health Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container mt-3" style="text-align: center">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2021 Epsychiatry Pty. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer> -->
+<!-- ./Footer -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

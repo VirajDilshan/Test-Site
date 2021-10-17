@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--local stylesheet-->
+    <link href="../../css/styles.css" rel="stylesheet">
+    <!--fontawesome icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--google fonts integration -->
+
+    <title>Apathy - Persistent Depressive Disorder</title>
+    <!--    favicon -->
+    <link href="../../images/Logo-100px.png" rel="shortcut icon" type="image/jpg"/>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>  
+        $(function(){ 
+          $("#nav2").load("nav2.html"); 
+          $("#footer").load("footer2.html");   
+        }); 
+      </script>
+
+</head>
+<body>
+
+<div class="container-fluid nopadding">
+    <!--upper header area starts here-->
+    <div class="upper-section">
+        <p id="upper-id"><i aria-hidden="true" class="fa fa-envelope" style="color: #B1B4B8"></i> <a
+                href="mailto: support@epsychiatry.com.au">support@epsychiatry.com.au</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-youtube-play"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-instagram"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-pinterest"></i></a>
+        </p>
+    </div>
+    <!--upper header ares ends here-->
+    <hr>
+    <div id="nav2"></div>
+    <!--navigation bar starts here-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"><img alt="Home" src="../../images/Logo-100px.png"></a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownServices" role="button">Services</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu" role="menu">
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" href="../../templates/services/anxiety-treatment.html">Anxiety</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/what-is-agoraphobia.html">Agoraphobia</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/ocd.html">OCD</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/panic-attacks.html">Panic
+                                        Attacks</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/phobias.html">Phobias</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/separation-anxiety-in-adults.html">Separation
+                                        Anxiety Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/stress-mental-health.html">Stress &
+                                        Mental Health</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/social-anxiety-disorder.html">Social
+                                        Anxiety Disorder</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Developmental</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/relationship-attachment-style.html">Attachment</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/autism-in-adults.html">Autism in
+                                        Adults</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/identity-crisis-feeling-lost-what-can-you-do.html">Identity
+                                        Crisis</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/tic-disorder-tics-motor-tics-and-vocal-tics.html">Tics
+                                        Disorder()</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Eating</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/binge-eating-disorder.html">Binge
+                                        Eating Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/bulimia-nervosa.html">Bulimia
+                                        Nervosa</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Habits</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/caffeine-use-disorder.html">Caffeine
+                                        Use Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/excessive-daydreaming.html">Excessive
+                                        Daydreaming</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/hoarding-disorder.html">Hoarding
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/video-game-addiction.html">Video
+                                        Game Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/impulse-control-disorder.html">Impulse
+                                        Control Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/stealing-(Kleptomania).html">Stealing</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mind-Body</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/chronic-fatigue.html">Chronic
+                                        Fatigue</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/functional-neurological-disorder.html">Functional
+                                        Neurological Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/headaches.html">Headaches</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/pain.html">Pain</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/poor-body-image.html">Poor Body
+                                        Image</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mood</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/adjustment-disorder.html">Adjustment
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/Apathy-Persistent-Depressive-Disorder.html">Apathy</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/bipolar.html">Bipolar</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/cyclothymic-disorder.html">Cyclothymic
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/depression.html">Depression</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/prolonged-grief-reaction.html">Grief
+                                        & Loss</a></li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Lack of
+                                            Interest</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item"
+                                                   href="../../templates/services/lack-of-interest-or-no-interest.html">Lack of
+                                                Interest or No Interest</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/loneliness-and-social-isolation.html">Loneliness</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/low-self-esteem.html">Low Self
+                                        Esteem</a></li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Major
+                                            Depressive Disorder</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item"
+                                                   href="../../templates/services/depression-major-depressive-disorder.html">
+                                                Depression</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/mood-swings-emotional-ups-and-downs.html">Mood Swings</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/persistent-depressive-disorder-dysthymia.html">Persistent
+                                        Depressive Disorder</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Personality-Temprement</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/anger-management.html">Anger
+                                        Management</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/avoidant-personality-disorder.html">Avoidant Personality
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/dependent-personality-disorder.html">Dependent
+                                        Personality
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/impulsivit-&-disinhibition.html">Impulsivity
+                                        &
+                                        Disinhibition</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/narcissism.html">Narcissism – an
+                                        overview of Narcissistic behaviour</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/obsessive-compulsive-personality-disorder.html">Obsessive-Compulsive
+                                        Personality Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/paranoid-personality-disorder.html">Paranoid Personality</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychosis</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/psychosis.html">Psychotic Episode</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Relational</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                           href="#">Conflict</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/services/conflict-resolution.html">Conflict
+                                                resolution</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/pregnancy&mental-health.html">Pregnancy & Mental
+                                        Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Sleep</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/poor-sleep-mental-health.html">Poor Sleep & Mental
+                                        Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Trauma</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/acute-stress-reaction.html">Acute Stress Reaction</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/PTSD.html">PTSD Reaction</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="../../templates/services/gender-dysphoria.html">Gender Dysphoria</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropleft">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownTeam" role="button">Team</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../../templates/team/about-us.html">About us</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/careers.html">Careers</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/clinicians.html">Clinicians</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/contact-us.html">Contact us</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropleft">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownResources" role="button">Resources</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Access</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-eligible-areas.html">Eligibility</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/mental-health-professional.html">Professional
+                                        Mental Health Service</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Counselling</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/resources/counseling-for-men-therapy-for-toxic-masculinity.html">Counseling
+                                        for men</a></li>
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Grief</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/does-grief-counseling-help.html">Does grief
+                                                counselling
+                                                help?</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/does-medicare-cover-grief-counseling.html">Does Medicare cover
+                                                grief counselling?</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/grief-counseling-therapy-to-deal-with-loss.html">Grief
+                                                counseling</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/how-does-grief-counselling-work.html">How does grief
+                                                counselling work</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/is-grief-counseling-for-you.html">Is grief counseling
+                                                for you?</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/workplace-counselling.html">Workplace Counselling</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">FAQ</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/how-can-we-help.html">How can we help</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/how-does-telehealth-work.html">How does telehealth
+                                        work?</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/legal-reports.html">Legal Reports</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-faq.html">Telehealth questions</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Location</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-melbourne-psychologist.html">Melbourne</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-perth-psychologist.html">Perth</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-sydney-psychologist.html">Sydney</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychiatry</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/first-psychiatrist-appointment.html">First Psychiatrist
+                                        Appointment</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/our-telehealth-psychiatry-service.html">Our Telehealth Psychiatry
+                                        Service</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/physical-and-mental-health.html">Physical & Mental
+                                        Health</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/psychiatrist-near-me.html">Psychiatrist near me</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/seeing-your-psychiatrist-online.html">Seeing your psychiatrist
+                                        online</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychology</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Guide</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/bulk-billing-psychologist.html">Bulk Billing
+                                                Psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/five-reasons-to-see-a-psychologist.html">Five reasons to see
+                                                a psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/psychologist-or-psychiatrist.html">Psychologist or
+                                                Psychiatrist?</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/psychology-via-telehealth-benefits.html">Psychology via
+                                                telehealth benefits</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Types</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/what-does-a-clinical-psychologist-do.html">Clinical
+                                                Psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/different-types-of-psychologists-an-overview.html">Different Types of
+                                                Psychologists</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Testing &
+                                            Assessment</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-adhd-test.html">Adult ADHD</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-autism-test.html">Adult autism
+                                                test</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-dyslexia-test.html">Adult Dyslexia
+                                                test</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/dementia-tests.html">Dementia</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/emotional-intelligence-test.html">Emotional
+                                                Intelligence</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/personality-testing.html">Personality
+                                                Testing</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychotherapy</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Acceptance
+                                            and Commitment Therapy</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/acceptance-and-commitment-therapy.html">Acceptance and
+                                                Commitment Therapy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Cognitive
+                                            Behavioural Therapy (CBT)</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/what-is-cbt.html">What is CBT
+                                                (Cognitive Behavioral Therapy)</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/cbt-for-insomnia.html">CBT for
+                                                insomnia</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/trauma-focused-cognitive-behavioral-therapy.html">What is trauma
+                                                focused CBT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/couples-therapy.html">Couples Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/family-therapy.html">Family Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/interpersonal-therapy-for-depression.html">Interpersonal Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/mindfulness-based-cognitive-therapy.html">Mindfulness-based cognitive
+                                        therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/schema-therapy.html">Schema Therapy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../templates/blogs/blog-1.html">Blog</a>
+                    </li>
+                </ul>
+                <div class="d-flex" id="btn-login">
+                    <a class="btn btn-secondary text-white d-flex" href="#">Login</a>
+                </div>
+                <form class="d-flex">
+                    <div class="input-group">
+                        <input aria-label="Search" class="form-control" placeholder="Search" type="search">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav> -->
+    <!--navigation bar ends here-->
+</div>
+
+<section id="blog-article">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h1>Apathy - Persistent Depressive Disorder</h1>
+            </div>
+        </div>
+
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>>';">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Services</a></li>
+                <li aria-current="page" class="breadcrumb-item active" style="color: #54444E;">Apathy - Persistent Depressive Disorder</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- para section-->
+<div class="container">
+    <div class="row py-3" style="justify-content: center;">
+        <div class="col-3 col-lg-3 order-2" id="sticky-sidebar">
+            <div class="sticky-top">
+                <div class="nav flex-column">
+                    <a href="#topic-1" class="nav-link">What is Apathy?</a>
+                    <a href="#topic-2" class="nav-link">What can cause Apathy?</a>
+                    <a href="#topic-3" class="nav-link">Am I Apathetic?</a>
+                    <a href="#topic-4" class="nav-link">How is Apathy diagnosed?</a>
+                    <a href="#topic-5" class="nav-link">Treatment for Apathy</a>
+                    <a href="#topic-6" class="nav-link">How can I help myself with Apathy?</a>
+                    <a href="#topic-7" class="nav-link">Why is it important to deal with Apathy?</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-9 col-lg-9" id="main">
+            <p>Sometimes, it may feel good to feel nothing at all. 
+                Death and funerals don’t hurt. Losing someone doesn’t hurt as it should. 
+                No amount of excitement, achievement, or happiness has you jumping around 
+                in joy. It really is as if you were made of steel. 
+                This is the life summed up of someone who is diagnosed with Apathy.</p><br>
+                <p><img class="img-fluid" loading="lazy" src="../../images/Epsychiatry-Apathy-01-scaled-min.webp" alt=""></p>
+            <h2 class="mt-3" id="topic-1">What is Apathy?</h2>
+            <p>Those who have Apathy hold a general disinterest in most aspects of life. 
+                In the most basic terms, it is the lack of emotions and feelings. 
+                This includes the lack of excitement, sorrow, regret, joy, concern, etc. 
+                The severity of this condition differed from one person to another. 
+                Sure, we have all felt unmotivated and uninterested from time to time. 
+                However, Apathy can be the result of other persisting mental disorders 
+                such as depression. If untreated, the situation can be harmful. </p>
+            <p><br></p>
+            <p>Those who are experiencing Apathy might also know that they are not 
+                feeling as much as the others look to. However, they do not feel enough 
+                to care about it. You must feel emotions towards something on a personal level. 
+                Simply, due to not feeling, individuals with Apathy are unlikely to form a 
+                strong bond with anyone or anything. Further, anyone who is affiliated with 
+                them is unlikely to experience love or care as they should.</p><br>
+            <p>Quite ironically, Apathy can also be a feeling. 
+                The problem is with the kind of feeling it is. 
+                It is a feeling of indifference, with no passion, looking to detach themselves,
+                 and being unresponsive. This can be draining, leaving an Apathic person tired, 
+                 lethargic and exhausted. These behavior traits make them very easily 
+                 detectable among normally emotional humans.</p><br>
+
+            <h2 class="mt-3" id="topic-2">What can cause Apathy?</h2>
+            <p>What exactly causes someone to not feel or care? Causes can be twofold. 
+                It can be a side effect of other neurological disorders or caused by 
+                lifelong practices that sans individuals from feeling.</p>
+            <p><br></p>
+
+            <h3>Effects of other neurological disorders</h3>
+            <p>It can be a result of neurological disorders and side effects 
+                of other illnesses. If you are suffering from either one or a few of 
+                the diseases below, Apathy can be an expected problem.</p>
+            <p><br></p>
+            <ul>
+                <li>Parkinson’s Disease</li>
+                <li>Alzheimer’s</li>
+                <li>Dysthymia</li>
+                <li>Dementia</li>
+                <li>Schizophrenia</li>
+                <li>Strokes</li>
+                <li>Anxiety</li>
+                <li>Depression</li>
+            </ul>
+            <p>As mentioned below, Apathy is a normal feeling people experience 
+                from time to time. However, the alarming situation is if one experiences 
+                Apathy on a daily basis, regardless of the severity of the situation. 
+                The above situations can cause Apathy for different reasons. 
+                For example, an individual with Alzheimer’s is unable to recall things 
+                that were dear to them. Their memory shifts and resets every now and then. 
+                Thus, they don’t know anything long enough to recognize or care for them. 
+                The world is all over a new place for them, with every memory reset. 
+                When there is no memory it is hard to recognize who to care about. 
+                The same issue with Parkinson’s added to hallucinations. 
+                Parkinsons patients live out of reality way too often to know and 
+                care about what happens around them. Similarly, 
+                all the other disorders have their own way of messing with an 
+                individual’s reality.</p>
+            <p><br></p>
+
+            <h3>Other lifelong practices</h3>
+            <p>Check the below points and recognize any that you may have associated 
+                with yourself, which can potentially lead to your Apathic situation.</p>
+            <p><br></p>
+            <h4>Feeling not good enough</h4>
+            <p>Do you feel like you are worthless and not good enough? 
+                Condemning your worth and letting other people decide who you 
+                are can lead to a general numbness in your emotions. 
+                You may start with feeling incompetent, feeling sorry for yourself, 
+                and eventually will move on to the point of detachment and isolation. 
+                This is a result of feeling too much and experiencing a rollercoaster 
+                of emotions, eventually getting used to it and wanting all of it to 
+                go away by shutting yourself to emotions and hurt.</p><br>
+            <h4>An unexpected life event that affects you greatly</h4>
+            <p>Sometimes when a load of emotions hits you when you least expect it, 
+                the energy it takes to recover from it can have you despising feeling 
+                anything. In negative situations, this can be to avoid experience that 
+                sadness. If it was a positive situation, you may feel too happy to 
+                worry or care about anything else. However, the negative scenario is
+                 more common.</p>
+            <p>For example, having your family turned against you can lead you never 
+                to trust anyone again and the distress caused by it can make you immune 
+                to any more hurt. You may feel like the worst thing in the world has already 
+                happened to you, and nothing else can hurt you or affect you anymore. 
+                You may also have a very hard time trusting anyone, which will result in 
+                you distancing yourself from everyone that mattered to you.</p><br>
+            <h4>A routinely life style</h4>
+            <p>Life can be so routine and boring that we worry about our next meal and 
+                going home before traffic hits. We can easily miss out on the simple 
+                joys of life. Without even realizing it, we are settling down to a life we 
+                would have never accepted a few years ago. This can easily form us to be 
+                robots that only have a few daily goes in life, dealing with the same set of 
+                emotions like we are stuck in a cycle. This can tire you and overwhelm you 
+                to a point you are detached and full of indifference.</p>
+                <p><img class="img-fluid" loading="lazy" src="../../images/Epsychiatry-Apathy02-scaled-min.webp" alt=""></p>
+
+            <h2 class="mt-3" id="topic-3">Am I Apathetic?</h2>
+            <p>Maybe you are not apathetic. The confusing feelings you have may be normal. 
+                However, go through the below points to identify if you have apathy, 
+                or if you are worrying unnecessarily. Please note that the below points 
+                are examples to make you understand exactly what Apathy looks like.</p>
+            <ul>
+                <li>You have no more interest in things that brought you great joy. 
+                    For example, you used to love to paint. However, you don’t anymore. 
+                    You are no longer seeing paintings nor are you interested in grabbing 
+                    a chance to paint.</li>
+                <li>There was a time you used to look forward to late-night calls with your 
+                    mother who lives in another country. Now, you try to ditch the calls 
+                    or no longer want to do it.</li>
+                <li>Lethargic.</li>
+                <li>Events that should hurt you immensely do not 
+                    affect you so badly anymore.</li>
+                <li>Nothing can make you too happy. You manage to maintain a mild 
+                    expression and feelings without an effort no matter the situation.</li>
+                <li>You have no motivation. No task about the job, life, 
+                    education is interesting anymore.</li>
+                <li>Don’t feel like performing the simplest tasks, 
+                    even while you have the energy. You convince yourself that you 
+                    can not do it.</li>
+                <li>No energy for commitments. Be it career goals, relationships, 
+                    educational goals, etc. You simply just don’t care.</li>
+            </ul>
+            <p>In other words, life passes you by and you simply sit and stare. 
+                You do not have the energy in you to motivate yourself to navigate it. 
+                Sometimes extreme pessimists find it hard to motivate themselves to 
+                face a future they are sure is going to be terrible and a failure. 
+                This pullback that may have started from the childhood lookout on life 
+                is very hard to change. Generally, such a negative attitude effortlessly 
+                pushes one to not try, not care and not feel.</p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-4">How is Apathy diagnosed?</h2>
+            <p>To diagnose Apathy, your doctor will ask you questions that will 
+                follow along with the below points. It will mostly be about your 
+                daily functioning in life.</p>
+            <ul>
+                <li>Have you experienced any lack of motivation recently?</li>
+                <li>Can you recall a time you realized you no longer like doing 
+                    something you used to enjoy very much?</li>
+                <li>Have you been having mood swings?</li>
+                <li>Are you experiencing lethargy?</li>
+                <li>Run me through your day. What happens in your life on a daily basis?</li>
+                <li>How have these changes affected your life?</li>
+            </ul>
+            <p>In addition, your health care provider may also run tests and perform 
+                physical examinations to make sure your condition is not a side 
+                effect of another severe illness. They may also talk to your family 
+                to understand the depth of the situation if you are okay with it. 
+                According to the test results, your doctor may diagnose you with 
+                Apathy syndrome which might co-exist as a side effect of a different 
+                neurological disorder.</p>
+            <br>
+
+            <h2 class="mt-3" id="topic-5">Treatment for Apathy</h2>
+            <p>Treatment is available for Apathy. However, it is a little 
+                complicated when Apathy has resulted as a side effect of another disorder. 
+                If that is the case, medication and other advice provided to you by a 
+                healthcare provider must be followed. Otherwise, lifestyle changes can 
+                help you with eliminating Apathy.</p>
+            <p><br></p>
+            <h3>Medications and psychotherapy</h3>
+            <p>Prescribed medication by your health care provider should be taken to treat
+                 Apathy. These medications can include antidepressants, antipsychotics, 
+                 and stimulants.</p>
+            <p>Psychotherapy is also recommended by doctors, which is related to 
+                Cognitive Behavioral Therapy. This is common if Apathy is a result 
+                of depression or anxiety.</p>
+
+            <h2 class="mt-3" id="topic-6">How can I help myself with Apathy?</h2>
+            <p>Knowing you aren’t feeling like you are supposed to cant be worse than 
+                knowing that your loved ones suffer because of that too. Also, 
+                you haven’t really lived until you love and experience emotions on your own. 
+                Here are a few ways you can practice to start living again.</p><br>
+            
+            <h3>Figure out the cause of the problem</h3>
+            <p>Track the timeline for as far back as you can and try to recall 
+                the first few times you felt unmotivated or detached. When did you 
+                first feel like not doing something you always enjoyed very much? 
+                By doing this, you may be able to know if your apathy is caused by an 
+                event that occurred. There can be events where it impacts you more than 
+                you originally realized. Also, you might be able to link this new Apathy 
+                with other symptoms you may have been experiencing. If all of it comes 
+                together, you may be able to know that there is an underlying cause to 
+                your Apathy. In other words, understanding the cause of your Apathy, 
+                helps you work towards eliminating it better. You know what happened 
+                and you know what to do.</p><br>
+            
+            <h3>Push yourself off your comfort zone</h3>
+            <p>Say hi to that old man who you walk past every morning. 
+                Invite a few friends over. Go for an early morning run. 
+                Workout every day for 15 mins. These are a few healthy changes 
+                you can do in your daily life to eliminate Apathy. Of course, 
+                feeling uninterested you may not want to do any of this and would 
+                rather stick to the couch and TV. However, Apathy is not a physical problem. 
+                It is in your head. Thus it is not fixable with sticking to a bunch of pills. 
+                Hard work and going over your comfort zone are necessary to find motivation 
+                and interest in life again.</p><br>
+            
+            <h3>Engage in things you once loved</h3>
+            <p>Since you’ve been feeling Apathetic there may be so many things you 
+                gave up that you loved before. Try to re-engage with those events and people. 
+                Remind yourself why you love them and why they are important. 
+                Push yourself to be the person that enjoyed them. 
+                Remember that Apathy is a state of mind. If you want to eliminate Apathy, 
+                it is your way of thinking and behaving that has to change. In addition, one 
+                of the key signs of Apathy is losing interest in what you used to love. 
+                We believe this is one of the most important steps to take in reversing 
+                Apathy.</p><br>
+
+            <h3>Be proud of your small achievements</h3>
+            <p>If you gather yourself p to go to the grocery store after days 
+                of lying indoors, be proud of it. No matter what a small thing it is in 
+                another eye, you alone understand the energy it took to get yourself there. 
+                Break big tasks into smaller and many tasks and be happy for yourself every 
+                time you accomplish them. It is true that your Apathy can hurt 
+                others very much. However, they can not help you as much as you can help 
+                yourself.</p><br>
+
+            <h3>Try support groups and other social activities</h3>
+            <p>There are music and art therapy classes as well as support groups 
+                for those who are suffering from Apathy. Meeting up with more people who 
+                are struggling to feel or care can ironically help you care eventually.</p><br>
+
+            <h3>Focus on your goals and your loved ones</h3>
+            <p>In other words, understand what you should care about, 
+                so when you find not caring, you know you got to stop. 
+                Set goals for your future and have them push you when you feel like 
+                giving up. St dreams as to who you want to be. Be closer to the people 
+                that you love and love you. With time, you will find it impossible to not 
+                care about those things.</p><br>
+
+            <h3>Counseling</h3>
+            <p>Counselors have the training to deal with all sorts of psychological 
+                problems and apathy is just one of them. You can trust a certified 
+                clinician to get to the bottom of the issue and help you out using their 
+                expertise in the field. This may truly eliminate any waste of time and might 
+                be the most recommended cause of action, especially if you see no improvement 
+                after trying the methods above. They will use certain tactics such as 
+                treatment plans, diet plans, chore changes to give you a 
+                better feel of life.</p><br>
+                <p><img class="img-fluid" loading="lazy" src="../../images/Epsychiatry-Apathy-03-scaled-min.webp" alt=""></p>
+
+            <h2 class="mt-3" id="topic-7"><strong>Why is it important to deal with Apathy?</strong></h2>
+            <p>There is no blood test or tick box sheet that can be filled out to 
+                make a diagnosis of Adjustment Disorder. Instead, 
+                doctors and psychologists make a diagnosis based on answers to 
+                questions they ask. Firstly, they will inquire about childhood, 
+                life events and emotions they triggered, recent stressors and the 
+                impact it has had. Secondly, they will want to know about past mental 
+                health problems. What helped and what didn’t. Finally, they may speak to a 
+                friend or support person.</p><br>
+
+            <h2 class="mt-3" id="topic-11">Criticisms of Adjustment Disorder diagnosis</h2>
+            <p>Apathy is a problem where one can’t possibly feel, care, get attached, 
+                or anything involving emotion. Basically, it is a very lonely life. 
+                Getting apathy treated is not only a good thing for the patient but 
+                also for everyone around them. Even though the Apathetic one finds it hard 
+                to care, everyone around them cares. They care about other people, 
+                they care about themselves and everything that is significant to them. 
+                In other words, it is impossible to create a bond with someone who does 
+                not respond emotionally even when it is needed.</p>
+            <p>Thus, Apathy takes away one’s chance and right to be in committed 
+                and healthy relationships. Individuals with Apathy hurt those that care 
+                about them and important to them without having any idea. They may push 
+                people away without a clue and not know what happened or why they ended up 
+                alone. Frankly, they would not care. Apathy can make one’s life 
+                severely lonely, routine, and miserable.</p>
+            <p>Without having Apathy or its underlying issue treated, 
+                one may die a lonely death, early in life. They would not have the chance 
+                to explore the beauties of life with people or live a full life. 
+                Therefore it is important that as soon as Apathy is detected the individual 
+                themself or a loved one take them to therapy. Once Apathy becomes a 
+                lifestyle for a long time, chances of reversing are slight. Chances are a 
+                loved one will figure out the problem before the patient will. 
+                The betterment of the patient relies on how fast they reach out for <a href="https://epsychiatry.com.au/contact-us/">help</a>  
+                and change.</p><br>
+            
+        </div>
+    </div>
+</div>
+<!-- end of para section-->
+
+<!-- Footer -->
+<!-- Site footer -->
+<div id="footer"></div>
+<!-- <footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                <h6>Contact us</h6>
+                <form>
+                    <div class="mb-3">
+                        <input class="form-control" id="contact-us-name" placeholder="Name*" required
+                               style="max-width: 350px" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" id="contact-us-email" placeholder="E-mail*" required
+                               style="max-width: 350px" type="email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="contact-us-message" placeholder="Message*" required
+                                  rows="5" style="max-width: 350px"></textarea>
+                    </div>
+                    <button class="btn btn-primary" style="margin-bottom: 5px;" type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <h6>Important</h6>
+                <p class="text-justify">This is not an emergency service. Same day consults are not available.
+                    If you are in distress please contact your nearest emergency department,
+                    your local area mental health service triage or dial “000</p>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <h6>Learn More</h6>
+                <ul class="footer-links">
+                    <li><a href="">Psychology via Telehealth Benefits</a></li>
+                    <li><a href="">Five reasons to see a psychologist</a></li>
+                    <li><a href="">Professional Mental Health Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container mt-3" style="text-align: center">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2021 Epsychiatry Pty. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer> -->
+<!-- ./Footer -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--local stylesheet-->
+    <link href="../../css/styles.css" rel="stylesheet">
+    <!--fontawesome icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--google fonts integration -->
+
+    <title>Anxiety</title>
+    <!--    favicon -->
+    <link href="../../images/Logo-100px.png" rel="shortcut icon" type="image/jpg"/>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>  
+        $(function(){ 
+          $("#nav2").load("nav2.html"); 
+          $("#footer").load("footer2.html");   
+        }); 
+      </script>
+
+</head>
+<body>
+
+<div class="container-fluid nopadding">
+    <!--upper header area starts here-->
+    <div class="upper-section">
+        <p id="upper-id"><i aria-hidden="true" class="fa fa-envelope" style="color: #B1B4B8"></i> <a
+                href="mailto: support@epsychiatry.com.au">support@epsychiatry.com.au</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-youtube-play"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-instagram"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-pinterest"></i></a>
+        </p>
+    </div>
+    <!--upper header ares ends here-->
+    <hr>
+    <div id="nav2"></div>
+    <!--navigation bar starts here-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"><img alt="Home" src="../../images/Logo-100px.png"></a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownServices" role="button">Services</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu" role="menu">
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" href="../../templates/services/anxiety-treatment.html">Anxiety</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/what-is-agoraphobia.html">Agoraphobia</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/ocd.html">OCD</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/panic-attacks.html">Panic
+                                        Attacks</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/phobias.html">Phobias</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/separation-anxiety-in-adults.html">Separation
+                                        Anxiety Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/stress-mental-health.html">Stress &
+                                        Mental Health</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/social-anxiety-disorder.html">Social
+                                        Anxiety Disorder</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Developmental</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/relationship-attachment-style.html">Attachment</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/autism-in-adults.html">Autism in
+                                        Adults</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/identity-crisis-feeling-lost-what-can-you-do.html">Identity
+                                        Crisis</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/tic-disorder-tics-motor-tics-and-vocal-tics.html">Tics
+                                        Disorder()</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Eating</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/binge-eating-disorder.html">Binge
+                                        Eating Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/bulimia-nervosa.html">Bulimia
+                                        Nervosa</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Habits</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/caffeine-use-disorder.html">Caffeine
+                                        Use Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/excessive-daydreaming.html">Excessive
+                                        Daydreaming</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/hoarding-disorder.html">Hoarding
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/video-game-addiction.html">Video
+                                        Game Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/impulse-control-disorder.html">Impulse
+                                        Control Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/stealing-(Kleptomania).html">Stealing</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mind-Body</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/chronic-fatigue.html">Chronic
+                                        Fatigue</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/functional-neurological-disorder.html">Functional
+                                        Neurological Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/headaches.html">Headaches</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/pain.html">Pain</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/poor-body-image.html">Poor Body
+                                        Image</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mood</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/adjustment-disorder.html">Adjustment
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/Apathy-Persistent-Depressive-Disorder.html">Apathy</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/bipolar.html">Bipolar</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/cyclothymic-disorder.html">Cyclothymic
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/depression.html">Depression</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/prolonged-grief-reaction.html">Grief
+                                        & Loss</a></li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Lack of
+                                            Interest</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item"
+                                                   href="../../templates/services/lack-of-interest-or-no-interest.html">Lack of
+                                                Interest or No Interest</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/loneliness-and-social-isolation.html">Loneliness</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/low-self-esteem.html">Low Self
+                                        Esteem</a></li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Major
+                                            Depressive Disorder</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item"
+                                                   href="../../templates/services/depression-major-depressive-disorder.html">
+                                                Depression</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/mood-swings-emotional-ups-and-downs.html">Mood Swings</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/persistent-depressive-disorder-dysthymia.html">Persistent
+                                        Depressive Disorder</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Personality-Temprement</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/anger-management.html">Anger
+                                        Management</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/avoidant-personality-disorder.html">Avoidant Personality
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/dependent-personality-disorder.html">Dependent
+                                        Personality
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/impulsivit-&-disinhibition.html">Impulsivity
+                                        &
+                                        Disinhibition</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/narcissism.html">Narcissism – an
+                                        overview of Narcissistic behaviour</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/obsessive-compulsive-personality-disorder.html">Obsessive-Compulsive
+                                        Personality Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/paranoid-personality-disorder.html">Paranoid Personality</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychosis</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/psychosis.html">Psychotic Episode</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Relational</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                           href="#">Conflict</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/services/conflict-resolution.html">Conflict
+                                                resolution</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/pregnancy&mental-health.html">Pregnancy & Mental
+                                        Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Sleep</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/poor-sleep-mental-health.html">Poor Sleep & Mental
+                                        Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Trauma</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/acute-stress-reaction.html">Acute Stress Reaction</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/PTSD.html">PTSD Reaction</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="../../templates/services/gender-dysphoria.html">Gender Dysphoria</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropleft">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownTeam" role="button">Team</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../../templates/team/about-us.html">About us</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/careers.html">Careers</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/clinicians.html">Clinicians</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/contact-us.html">Contact us</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropleft">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownResources" role="button">Resources</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Access</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-eligible-areas.html">Eligibility</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/mental-health-professional.html">Professional
+                                        Mental Health Service</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Counselling</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/resources/counseling-for-men-therapy-for-toxic-masculinity.html">Counseling
+                                        for men</a></li>
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Grief</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/does-grief-counseling-help.html">Does grief
+                                                counselling
+                                                help?</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/does-medicare-cover-grief-counseling.html">Does Medicare cover
+                                                grief counselling?</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/grief-counseling-therapy-to-deal-with-loss.html">Grief
+                                                counseling</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/how-does-grief-counselling-work.html">How does grief
+                                                counselling work</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/is-grief-counseling-for-you.html">Is grief counseling
+                                                for you?</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/workplace-counselling.html">Workplace Counselling</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">FAQ</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/how-can-we-help.html">How can we help</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/how-does-telehealth-work.html">How does telehealth
+                                        work?</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/legal-reports.html">Legal Reports</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-faq.html">Telehealth questions</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Location</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-melbourne-psychologist.html">Melbourne</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-perth-psychologist.html">Perth</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-sydney-psychologist.html">Sydney</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychiatry</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/first-psychiatrist-appointment.html">First Psychiatrist
+                                        Appointment</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/our-telehealth-psychiatry-service.html">Our Telehealth Psychiatry
+                                        Service</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/physical-and-mental-health.html">Physical & Mental
+                                        Health</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/psychiatrist-near-me.html">Psychiatrist near me</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/seeing-your-psychiatrist-online.html">Seeing your psychiatrist
+                                        online</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychology</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Guide</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/bulk-billing-psychologist.html">Bulk Billing
+                                                Psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/five-reasons-to-see-a-psychologist.html">Five reasons to see
+                                                a psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/psychologist-or-psychiatrist.html">Psychologist or
+                                                Psychiatrist?</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/psychology-via-telehealth-benefits.html">Psychology via
+                                                telehealth benefits</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Types</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/what-does-a-clinical-psychologist-do.html">Clinical
+                                                Psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/different-types-of-psychologists-an-overview.html">Different Types of
+                                                Psychologists</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Testing &
+                                            Assessment</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-adhd-test.html">Adult ADHD</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-autism-test.html">Adult autism
+                                                test</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-dyslexia-test.html">Adult Dyslexia
+                                                test</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/dementia-tests.html">Dementia</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/emotional-intelligence-test.html">Emotional
+                                                Intelligence</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/personality-testing.html">Personality
+                                                Testing</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychotherapy</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Acceptance
+                                            and Commitment Therapy</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/acceptance-and-commitment-therapy.html">Acceptance and
+                                                Commitment Therapy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Cognitive
+                                            Behavioural Therapy (CBT)</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/what-is-cbt.html">What is CBT
+                                                (Cognitive Behavioral Therapy)</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/cbt-for-insomnia.html">CBT for
+                                                insomnia</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/trauma-focused-cognitive-behavioral-therapy.html">What is trauma
+                                                focused CBT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/couples-therapy.html">Couples Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/family-therapy.html">Family Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/interpersonal-therapy-for-depression.html">Interpersonal Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/mindfulness-based-cognitive-therapy.html">Mindfulness-based cognitive
+                                        therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/schema-therapy.html">Schema Therapy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../templates/blogs/blog-1.html">Blog</a>
+                    </li>
+                </ul>
+                <div class="d-flex" id="btn-login">
+                    <a class="btn btn-secondary text-white d-flex" href="#">Login</a>
+                </div>
+                <form class="d-flex">
+                    <div class="input-group">
+                        <input aria-label="Search" class="form-control" placeholder="Search" type="search">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav> -->
+    <!--navigation bar ends here-->
+</div>
+
+<section id="blog-article">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h1>Anxiety</h1>
+            </div>
+        </div>
+
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>>';">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Services</a></li>
+                <li aria-current="page" class="breadcrumb-item active" style="color: #54444E;">Anxiety</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- para section-->
+<div class="container">
+    <div class="row py-3" style="justify-content: center;">
+        <div class="col-3 col-lg-3 order-2" id="sticky-sidebar">
+            <div class="sticky-top">
+                <div class="nav flex-column">
+                    <a href="#topic-1" class="nav-link">Anxiety Treatment provided by Epsychiatry</a>
+                    <a href="#topic-2" class="nav-link">What are some differences between problem anxiety vs healthy anxiety?</a>
+                    <a href="#topic-3" class="nav-link">What are some of the signs and symptoms of an anxiety disorder?</a>
+                    <a href="#topic-4" class="nav-link">Medication</a>
+                    <a href="#topic-5" class="nav-link">Treatment for Anxiety</a>
+                    <a href="#topic-6" class="nav-link">Anxiety and Depression</a>
+                    <a href="#topic-7" class="nav-link">What are some of the different types of anxiety?</a>
+                    <a href="#topic-8" class="nav-link">How can your GP help with your anxiety treatment?</a>
+                    <a href="#topic-9" class="nav-link">How can your Psychologist help with your anxiety?</a>
+                    <a href="#topic-10" class="nav-link">How can your Psychiatrist help with your anxiety?</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-9 col-lg-9" id="main">
+            <h2 class="mt-3" id="topic-1">Anxiety Treatment provided by Epsychiatry</h2>
+            <p>Anxiety or fear is a normal response to a real or imagined threat. Everyone feels anxious from time to
+                time. This is normal. Anxiety can be a healthy emotion. It can actually prepare us better in certain
+                situations. For example, a bit of anxiety in the lead up to an exam or speech can motivate us to prepare
+                for the task and perform well. </p>
+            <p>However, some people experience pervading anxiety or anxiety that stops them from doing certain things.
+                An anxiety disorder is when anxiety causes significant distress and starts to impact your life. About 1
+                in 3 of us will experience an anxiety disorder at some point in our lives. Wherever you are in Australia,
+                Espsychiatry can provide you access to treatment for your anxiety. Contact us today to speak with one of
+                our experienced Psychiatrists and Psychologists.</p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-2">What are some differences between problem anxiety vs healthy anxiety?</h2>
+            <h4>Healthy Anxiety</h4>
+            <p>Healthy anxiety is short-lasting and goes away when there is no ‘threat’. Whereas problematic anxiety can
+                last for months or even years. It may persist in the absence of danger. Healthy, or normal, anxiety is
+                often related to an event or an upcoming situation. For example, at a party or when giving a speech. A
+                specific event isn’t always the cause for problem anxiety. Problem anxiety may pop up out of the blue,
+                with no clear trigger.</p>
+            <p>If the anxiety is healthy it shouldn’t stop you from doing things. In fact, it might actually help you
+                perform better. You might feel anxious before giving a speech However, if it’s within the healthy range,
+                this type of anxiety shouldn’t stop you from giving the talk. When anxiety is unhealthy, it will likely
+                prevent you from doing the things that are important to you. For example, speaking in public, going
+                outdoors, learning a new skill. If you do follow through with the task, unhealthy anxiety will mean
+                that you endure it with great amounts of distress. </p>
+
+            <h4>In proportion or out of proportion?</h4>
+            <p>With healthy or normal anxiety, the worries are often relative to the size of the actual threat.
+                In other words, you are likely to be able to accurately assess the degree of risk. Secondly, assess your
+                capacity to respond to it. When anxiety is problematic, perception can get distorted. The threat may
+                seem bigger to us than it actually is. People with anxiety disorders are prone to <strong>1)</strong>
+                overestimate the threat, and <strong>2)</strong> underestimate their capacity to cope with it.
+                This biased way of thinking is a key factor that keeps excessive anxiety going. As a result, it is
+                often a target in psychotherapy for anxiety disorders.</p>
+            <p><br></p>
+
+            <h2 id="topic-3">What are some of the signs and symptoms of an anxiety disorder?</h2>
+            <p>There are several signs and symptoms of anxiety disorders. Speaking in three broad categories. These
+                symptom categories include 1) thoughts, 2) feelings (emotions and body sensations), and 3) behaviours.
+                Below, we discuss some of the key signs and symptoms of anxiety in each category.</p>
+
+            <h4 class="mt-3">Thoughts</h4>
+            <p>People with an anxiety disorder will experience changes in their thinking. Often, their mind will focus
+                on perceived threats. So they get thoughts about ‘what could go wrong’ are likely to cause distress and
+                occupy a large amount of their time. People with anxiety often worry a lot, fear or predict the worst
+                and have difficulty tolerating uncertainty.</p>
+            <p>Intense obsessive thoughts are also common. Such as in the process of rumination, whereby the person
+                perseverates and focuses intently on negative thoughts for an excessive amount of time. People with
+                anxiety often think in unhelpful and irrational ways. For instance, commonly, the threat is overestimated
+                and the person’s coping capacity is underestimated. Common examples of anxious thoughts are things
+                like “everything will go wrong”, “what if [insert feared outcome] happens”, and “I can’t focus on
+                anything but my worries”. </p>
+
+            <h4 class="mt-3">Feelings</h4>
+            <p>You may feel a persistent sense of anxiety, intense worry or fear, or a general sense of unease.
+                Feeling ‘wound up. People with anxiety often feel restless or on edge and find it difficult to wind
+                down or relax. Many report a strong feeling of dread, danger or foreboding to be present most of the
+                time. Anxiety can also present as feeling irritable or agitated, panicky, nauseous or detached from
+                your body.</p>
+            <p>Anxiety is commonly held in the body. It is experienced as physical tension or muscle tightness. Many
+                people experience a range of body symptoms as a result of their anxiety. Firstly, tightness of the
+                chest, racing heart, trouble breathing, lightheadedness, hot and cold flushes and excessive sweating.
+                Secondly, panic attacks are an example of an extreme physical response to anxiety, whereby a person
+                experiences a range of intense somatic symptoms.</p>
+
+            <h4 class="mt-3">Behaviours</h4>
+            <p>As people’s thinking changes, their behaviour may also change. People with anxiety commonly avoid certain
+                tasks, hold off or withdraw from aspects of life. In addition, they tend to rely on unhelpful coping
+                strategies (e.g. alcohol or overeating) to manage their distress. People with anxiety may also have
+                greater difficulty making decisions. They can shut down for the fear of a bad outcome.</p>
+            <p>If you are unable to completely avoid an anxiety-provoking task or situation, you may engage in what we
+                call ‘safety behaviours’. Safety behaviours are a more subtle form of avoidance. They designed to
+                reduce anxiety in situ. For example, someone with a fear of going out may still be able to leave the
+                house. However, this may only be at certain times of the day and in the company of a trusted friend or
+                family member.</p>
+            <p>Avoidance and safety behaviours are key in keeping anxiety going. They are often important targets of
+                therapy for anxiety disorders.</p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-4">Medication</h2>
+            <p>Medication, as a treatment option for anxiety, is often considered after psychological therapy has been
+                tried. If your anxiety is severe, medication can be considered alongside psychology.</p>
+
+            <h4 class="mt-3">What’s SSRI?</h4>
+            <p>Selective serotonin reuptake inhibitors (SSRIs) are generally the first class of medication considered to
+                treat anxiety. An advantage of SSRI medications is that they can also be used to treat depression. Mood
+                disorders commonly occur alongside anxiety.</p>
+            <p>Like all medications, SSRIs can cause side effects and can interact with other medications. Serotonin
+                and noradrenaline reuptake inhibitors (SNRIs) are another class of medication used to treat anxiety.
+                If you have side effects in response to taking an SSRI, it may be worth considering an SNRI.</p>
+
+            <h4 class="mt-3">Seeing a Psychiatrist</h4>
+            <p>Psychiatrists have expert knowledge and practice in prescribing medications for mental health. If you are
+                suffering from anxiety, it is worth discussing your options with one of our Epsychiatry psychiatrists.</p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-5">Treatment for Anxiety</h2>
+            <p>Psychological therapies are considered first-line treatment for anxiety disorders. There are several
+                high quality, psychological self-help programs available online, many of which are free to access.
+                If your anxiety is severe and distressing, it may be more appropriate to see a psychologist in person
+                or online via telehealth. Self-help programs are great, but seeing a psychologist one-to-one allows the
+                treatment to be individualised. It can be tailored to your specific needs. Psychiatrists can also provide
+                therapy for anxiety, along with medications.</p>
+
+            <h4 class="mt-3">Cognitive Behaviour Therapy</h4>
+            <p>Cognitive Behaviour Therapy (CBT) has the largest research base for the treatment of anxiety disorders.
+                CBT is based, in part, on the basis that the way we think and behave affects the way we feel. CBT
+                involves working to understand the patterns of thinking and acting that cause and maintain your anxiety.
+                Once you recognise these patterns, you can make changes to replace them with more helpful strategies to
+                reduce your anxiety. </p>
+            <h4 class="mt-3">Behavioural Therapy</h4>
+            <p>Behavioural therapies can form part of CBT. Exposure therapy is an example of behavioural therapy to
+                treat anxiety. Exposure therapy involves breaking down a feared task into smaller, more manageable steps.
+                In this way, the person gradually confronts the task and learns along the way that 1) the feared outcome
+                is unlikely to occur, and/or 2) that they are better able to cope than originally predicted.</p>
+            <p>For example, if you have a fear of flying. Graded exposure starts by simply looking at photos of planes.
+                You would repeat this step as many times as needed to feel comfortable with it. Depending on your case,
+                the next steps on the exposure hierarchy may involve things like thinking about yourself on a plane.
+                Then watching videos of planes, driving past or visiting an airport, and, eventually, sitting on a plane.
+                Gradually, with repeated exposure, your fear of flying will likely diminish.</p>
+            <p><br></p>
+
+            <h3 class="mt-3"><strong>Diagnosis of Anxiety Disorders</strong></h3>
+            <h4 class="mt-3">Treating the Right thing</h4>
+            <p>Whilst websites such as Beyond Blue offer checklists for anxiety. There are no online tools or
+                questionnaires that can give you a firm diagnosis of an anxiety disorder. If you are experiencing
+                distress and your symptoms are impacting on areas of your life. We recommend seeking professional
+                advice to ensure you are correctly diagnosed. Secondly, to help access the right treatment.</p>
+            <p>As part of the assessment and diagnosis process, a doctor will want to rule out medical causes for your
+                symptoms. To do this, they might request blood tests. Secondly, carry out a physical examination, and
+                collect information about your medication and medical history. Several anxiety-like symptoms can be
+                caused by other medical conditions (e.g. thyroid problems). So it is important to make sure we are
+                treating the right thing.</p>
+            <h3 class="mt-3"><strong>Diagnostic criteria</strong></h3>
+            <p>Once other causes have been ruled out, a doctor or psychologist can consider a mental health diagnosis
+                for your symptoms. The diagnosis of an anxiety disorder is usually based on set diagnostic criteria.
+                For example, those outlined in the Diagnostic and Statistical Manual of Mental Disorders (DSM). Your
+                mental health clinician will work with you to understand your symptoms and make a diagnosis where
+                appropriate. </p>
+            <p>In some cases, your symptoms may not meet diagnostic criteria for an anxiety disorder. This does not
+                stop you from seeking treatment. It just means that your symptoms fall short of the criteria in number,
+                intensity or duration. Below threshold symptoms can significantly interfere with your quality of life.
+                In other words, you don’t need a diagnosis to access treatment to improve your mental health.</p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-6">Anxiety and Depression</h2>
+            <h3 class="mt-3"><strong>Diagnostic criteria</strong></h3>
+            <p>There is a significant overlap between anxiety and depression. When two disorders occur together like
+                this, we call them ‘co-morbid. Some estimates suggest that over 60% of people with anxiety will also
+                have symptoms of depression. The numbers are similar in reverse.</p>
+            <p>While we don’t know for certain why depression and anxiety disorders commonly overlap, there are several
+                theories. Living with an anxiety disorder is tiring and it makes sense that, over time, this can get you
+                down. Similarly, living with depression can mean you fall behind in your duties, thereby increasing
+                stress and subsequent feelings of anxiety.</p>
+            <p>Other theories for the high rates of comorbidity between anxiety and depression include the idea that
+                they both share similar biological causes in the brain. That they both have a number of overlapping
+                symptoms, and both can be a response to external stressors. As an example of the potential overlap of
+                these disorders, a person with depression may lack motivation and take time off work, which in turn,
+                might increase worry about finances, failure to meet deadlines, and colleagues’ opinions about their
+                absence.</p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-7">What are some of the different types of anxiety?</h2>
+            <h4 class="mt-3"><strong>Anxiety Disorders</strong></h4>
+            <p>There are different types of anxiety disorders. The different types of anxiety are often separated in
+                terms of the nature of the worry. Secondly, what triggers the worry and the behaviours that occur as a
+                result of that worry. We have listed some of the different types of anxiety below, however, this is not
+                a complete list. If you have questions regarding diagnosis, it is best to speak with your psychologist
+                or psychiatrist.</p>
+
+            <h4 class="mt-3"><strong>Panic Attacks</strong></h4>
+            <p>They are brief episodes of intense anxiety. They either come out of the blue or be brought on by a
+                specific trigger (e.g. a job, place, thought etc.). People describe intense physical symptoms, like
+                finding it hard to breathe and tingling in the arms and hands. Coupled with this is often an intense
+                sense of dread and the fear that one might collapse, go ‘mad’ or even die. Panic attacks are not
+                physically dangerous but are very frightening and leave you feeling vulnerable.</p>
+
+            <h4 class="mt-3"><strong>Phobias</strong></h4>
+            <p>Ongoing, irrational and excessive fear of a particular situation, object or animal. Common phobias
+                include a fear of public speaking, fear of clowns, snakes and spiders. A phobia causes the person
+                to avoid the trigger and/or endure it with great distress. There are many types of phobias. They can
+                have a varying impact on how people live their lives. As fear of snakes will not change how we live
+                our lives in the city. However, a fear of crowded places will prevent us from using buses and trains.</p>
+
+            <h4 class="mt-3"><strong>Generalised Anxiety Disorder (GAD)</strong></h4>
+            <p>Is a long term condition where someone experiences constant anxiety across a wide range of areas
+                in life. Their worries affect several aspects of daily functioning, including work, finances, health
+                and/or relationships. People with GAD also often report physical symptoms, such as muscle tension and
+                poor sleep.</p>
+
+            <h4 class="mt-3"><strong>Health Anxiety</strong></h4>
+            <p>This is a type of anxiety where the person worries about their health when there is no real cause for
+                concern. People with health anxiety often mistake their normal bodily feelings as dangerous. They
+                worry that they have a serious illness.  They often visit their doctor regularly, request tests or
+                examinations, and are left feeling that their fears are brushed aside.</p>
+
+            <h4 class="mt-3"><strong>Social Anxiety Disorder</strong></h4>
+            <p>Involves out of proportion fear, anxiety, or embarrassment caused by being with other people. The
+                anxiety is often driven by worry about being judged or shamed by others. There is no test for social
+                anxiety disorder, however, there are tick box tests that can help with making a diagnosis.</p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-8">How can your GP help with your anxiety treatment?</h2>
+            <p>General Practitioners manage the majority of anxiety presentations in Australia. They are often the
+                first port of call for a range of common mental health concerns. GPs are an excellent resource and
+                are capable of providing holistic treatment for your anxiety.</p>
+
+            <h4 class="mt-3"><strong>If you present with concerns about anxiety, your GP will be able to:</strong></h4>
+            <ul>
+                <li>Carry out blood tests to make sure you don’t have a medical cause (e.g. thyroid problems) underlying your anxiety-like symptoms</li>
+                <li>Provide you with information about anxiety. If you book a longer session, some may provide brief counselling or therapy services</li>
+                <li>If appropriate, start you on medication to help manage your anxiety</li>
+                <li>Make referrals for you to obtain specialist care from a psychologist (via a Mental Health Care Plan) and/or a psychiatrist</li>
+                <li>Link you in with local supports, NGOs and help you organise other governmental assistance, such as payments</li>
+            </ul>
+            <p>We encourage you to discuss your concerns about anxiety with your GP.</p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-9">How can your Psychologist help with your anxiety?</h2>
+            <p>Psychologists are highly trained in the area of mental health. They are skilled at providing a range
+                of therapeutic interventions for psychological problems. Anxiety disorders are highly prevalent and
+                psychologists are experienced in diagnosing and helping people overcome these conditions. In working
+                with you to treat your anxiety, a psychologist can:</p>
+
+            <h4 class="mt-3"><strong>Diagnose your anxiety</strong></h4>
+            <p>Often, the process of diagnosis involves a series of questions about your past and current problems.
+                In addition, sometimes, the completion of some self-report tests. A psychologist will help track your
+                progress as you get better. </p>
+
+            <h4 class="mt-3"><strong>Help you understand your anxiety</strong></h4>
+            <p>Its origins and the factors that cause and maintain it. For example, work stress, relationship troubles.
+                For some being bullied in your younger years, avoidant coping and your temperament/personality style may
+                all play a role. Through the process of understanding your difficulties, you will be in a  better place
+                to make the changes you need for improvement.</p>
+
+            <h4 class="mt-3"><strong>Treatment</strong></h4>
+            <p>Provide individual, evidence-based therapies known to be effective in treating anxiety disorders
+                (e.g. Cognitive Behaviour Therapy). For example, you may learn strategies to challenge unhelpful
+                patterns of thinking and behaviour. Thereafter you can develop problem-solving and social skills
+                to address factors that keep you feeling anxious.</p>
+
+            <h4 class="mt-3"><strong>Work with your supports</strong></h4>
+            <p>Psychologists often work with people one-on-one. However, they can also work with significant others in
+                your life (e.g. family, support workers, carers) if felt helpful. This may be of benefit during the
+                assessment and education phases, and in developing a well-rounded treatment plan. Speak with them,
+                agree on what is ok and not ok to share.</p>
+
+            <h4 class="mt-3"><strong>Referrals</strong></h4>
+            <p>Refer you to other local supports. Provide psychological reports for a range of purposes and provide
+                feedback to your GP regarding your progress. Your psychologist can provide letters to get other
+                help.</p>
+            <p>Our psychologists at Espychiatry are highly experienced in working with people who suffer from
+                anxiety in all its forms. If you are struggling with anxiety, you can give us a call today
+                to book.</p>
+            <p><br></p>
+
+            <h2 class="mt-3" id="topic-10"><strong>How can your Psychiatrist help with your anxiety?</strong></h2>
+            <p>Psychiatrists are medical doctors who have completed extra training in mental health. As a result of
+                their medical training, they often prescribe medications. They also manage the medical or biological
+                aspects of a patient’s care. Your psychiatrist will be able to help with:</p>
+
+            <h4 class="mt-3"><strong>Diagnosis</strong></h4>
+            <p>Talking about your concerns, conducting a thorough assessment and making appropriate diagnoses. This
+                will include an all-around mental state examination. Plus often a health examination
+                (e.g. blood tests, scans etc.) to uncover the origins of your difficulties</p>
+
+            <h4 class="mt-3"><strong>Holistic assessment</strong></h4>
+            <p>Providing specialist input into other aspects of your mental health, including any co-occurring
+                illnesses. They will look into how your work, family life, your character all play a part in your
+                mental health.</p>
+
+            <h4 class="mt-3"><strong>Medications</strong></h4>
+            <p>Prescribing tablets to manage your mental health symptoms, checking for side effects. Secondly, they
+                will tell you how to start, increase and come off your tablets. They can also advise your family
+                doctor on how to manage your tablets. There are certain medications for anxiety that only psychiatrist
+                can interact with. Finally, they will ensure that other aspects of your physical health (e.g. cardio
+                and metabolic health) remain stable.</p>
+
+            <h4 class="mt-3"><strong>Therapy</strong></h4>
+            <p>Providing psychological therapies to treat your anxiety. Similar to the talking therapy described above.
+                You can also see your doctor for medicine and have your therapy with someone else.</p>
+
+            <h4 class="mt-3"><strong>Work with other health professionals</strong></h4>
+            <p>Working with your GP and psychologist to make your care is right from a holistic and multi-disciplinary perspective.</p>
+
+            <h4 class="mt-3"><strong>Supports</strong></h4>
+            <p>Speaking with your friends and family, if you deem this to be beneficial, to further educate them about
+                your condition. In addition, they can advise on how they can best support you through your recovery.</p>
+            <p>Contact Epsychiatry’s friendly support team today to book an appointment with one of our experienced
+                psychiatrists.</p>
+        </div>
+    </div>
+</div>
+<!-- end of para section-->
+
+<!-- Footer -->
+<nav id="footer"></nav>
+<!-- Site footer -->
+<!-- <footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                <h6>Contact us</h6>
+                <form>
+                    <div class="mb-3">
+                        <input class="form-control" id="contact-us-name" placeholder="Name*" required
+                               style="max-width: 350px" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" id="contact-us-email" placeholder="E-mail*" required
+                               style="max-width: 350px" type="email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="contact-us-message" placeholder="Message*" required
+                                  rows="5" style="max-width: 350px"></textarea>
+                    </div>
+                    <button class="btn btn-primary" style="margin-bottom: 5px;" type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <h6>Important</h6>
+                <p class="text-justify">This is not an emergency service. Same day consults are not available.
+                    If you are in distress please contact your nearest emergency department,
+                    your local area mental health service triage or dial “000</p>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <h6>Learn More</h6>
+                <ul class="footer-links">
+                    <li><a href="">Psychology via Telehealth Benefits</a></li>
+                    <li><a href="">Five reasons to see a psychologist</a></li>
+                    <li><a href="">Professional Mental Health Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container mt-3" style="text-align: center">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2021 Epsychiatry Pty. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer> -->
+<!-- ./Footer -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

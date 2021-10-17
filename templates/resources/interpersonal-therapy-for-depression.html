@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--local stylesheet-->
+    <link href="../../css/styles.css" rel="stylesheet">
+    <!--fontawesome icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--google fonts integration -->
+
+    <title>IPT - Interpersonal Therapy for depression | Epsychiatry</title>
+    <!--    favicon -->
+    <link href="../../images/Logo-100px.png" rel="shortcut icon" type="image/jpg"/>
+    <!--    jquery-->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function(){
+            $("#nav3").load("nav3.html");
+            $("#footer3").load("footer3.html");
+        });
+    </script>
+
+</head>
+<body>
+
+<div class="container-fluid nopadding">
+    <!--upper header area starts here-->
+    <div class="upper-section">
+        <p id="upper-id"><i aria-hidden="true" class="fa fa-envelope" style="color: #B1B4B8"></i> <a
+                href="mailto: support@epsychiatry.com.au">support@epsychiatry.com.au</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-youtube-play"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-instagram"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-pinterest"></i></a>
+        </p>
+    </div>
+    <!--upper header ares ends here-->
+    <hr>
+    <!--navigation bar starts here-->
+    <div id="nav3"></div>
+<!--    <nav class="navbar navbar-expand-lg navbar-light bg-light">-->
+<!--        <div class="container-fluid">-->
+<!--            <a class="navbar-brand" href="../../index.html"><img alt="Home" src="../../images/Logo-100px.png"></a>-->
+<!--            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"-->
+<!--                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"-->
+<!--                    data-bs-toggle="collapse" type="button">-->
+<!--                <span class="navbar-toggler-icon"></span>-->
+<!--            </button>-->
+<!--            <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+<!--                <ul class="navbar-nav me-auto mb-2 mb-lg-0">-->
+<!--                    <li class="nav-item dropdown">-->
+<!--                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"-->
+<!--                           id="navbarDropdownServices" role="button">Services</a>-->
+<!--                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu" role="menu">-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" href="../../templates/services/anxiety-treatment.html">Anxiety</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/what-is-agoraphobia.html">Agoraphobia</a>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/ocd.html">OCD</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/panic-attacks.html">Panic-->
+<!--                                        Attacks</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/phobias.html">Phobias</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/separation-anxiety-in-adults.html">Separation-->
+<!--                                        Anxiety Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/stress-mental-health.html">Stress &-->
+<!--                                        Mental Health</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/social-anxiety-disorder.html">Social-->
+<!--                                        Anxiety Disorder</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Developmental</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/relationship-attachment-style.html">Attachment</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/autism-in-adults.html">Autism in-->
+<!--                                        Adults</a></li>-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/identity-crisis-feeling-lost-what-can-you-do.html">Identity-->
+<!--                                        Crisis</a></li>-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/tic-disorder-tics-motor-tics-and-vocal-tics.html">Tics-->
+<!--                                        Disorder()</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Eating</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/binge-eating-disorder.html">Binge-->
+<!--                                        Eating Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/bulimia-nervosa.html">Bulimia-->
+<!--                                        Nervosa</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Habits</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/caffeine-use-disorder.html">Caffeine-->
+<!--                                        Use Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/excessive-daydreaming.html">Excessive-->
+<!--                                        Daydreaming</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/hoarding-disorder.html">Hoarding-->
+<!--                                        Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/video-game-addiction.html">Video-->
+<!--                                        Game Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/impulse-control-disorder.html">Impulse-->
+<!--                                        Control Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/stealing-(Kleptomania).html">Stealing</a>-->
+<!--                                    </li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mind-Body</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/chronic-fatigue.html">Chronic-->
+<!--                                        Fatigue</a></li>-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/functional-neurological-disorder.html">Functional-->
+<!--                                        Neurological Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/headaches.html">Headaches</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/pain.html">Pain</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/poor-body-image.html">Poor Body-->
+<!--                                        Image</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mood</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/adjustment-disorder.html">Adjustment-->
+<!--                                        Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/Apathy-Persistent-Depressive-Disorder.html">Apathy</a>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/bipolar.html">Bipolar</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/cyclothymic-disorder.html">Cyclothymic-->
+<!--                                        Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/depression.html">Depression</a>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/prolonged-grief-reaction.html">Grief-->
+<!--                                        & Loss</a></li>-->
+<!--                                    <li class="dropdown-submenu dropleft">-->
+<!--                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Lack of-->
+<!--                                            Interest</a>-->
+<!--                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                            <li><a class="dropdown-item"-->
+<!--                                                   href="../../templates/services/lack-of-interest-or-no-interest.html">Lack of-->
+<!--                                                Interest or No Interest</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/loneliness-and-social-isolation.html">Loneliness</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/low-self-esteem.html">Low Self-->
+<!--                                        Esteem</a></li>-->
+<!--                                    <li class="dropdown-submenu dropleft">-->
+<!--                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Major-->
+<!--                                            Depressive Disorder</a>-->
+<!--                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                            <li><a class="dropdown-item"-->
+<!--                                                   href="../../templates/services/depression-major-depressive-disorder.html">-->
+<!--                                                Depression</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/mood-swings-emotional-ups-and-downs.html">Mood Swings</a>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/persistent-depressive-disorder-dysthymia.html">Persistent-->
+<!--                                        Depressive Disorder</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Personality-Temprement</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/anger-management.html">Anger-->
+<!--                                        Management</a></li>-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/avoidant-personality-disorder.html">Avoidant Personality-->
+<!--                                        Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/services/dependent-personality-disorder.html">Dependent-->
+<!--                                        Personality-->
+<!--                                        Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/impulsivit-&-disinhibition.html">Impulsivity-->
+<!--                                        &-->
+<!--                                        Disinhibition</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/narcissism.html">Narcissism – an-->
+<!--                                        overview of Narcissistic behaviour</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/obsessive-compulsive-personality-disorder.html">Obsessive-Compulsive-->
+<!--                                        Personality Disorder</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/paranoid-personality-disorder.html">Paranoid Personality</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychosis</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/psychosis.html">Psychotic Episode</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Relational</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li class="dropdown-submenu dropleft">-->
+<!--                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"-->
+<!--                                           href="#">Conflict</a>-->
+<!--                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/services/conflict-resolution.html">Conflict-->
+<!--                                                resolution</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/pregnancy&mental-health.html">Pregnancy & Mental-->
+<!--                                        Health</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Sleep</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/poor-sleep-mental-health.html">Poor Sleep & Mental-->
+<!--                                        Health</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Trauma</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/acute-stress-reaction.html">Acute Stress Reaction</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/services/PTSD.html">PTSD Reaction</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li><a class="dropdown-item" href="../../templates/services/gender-dysphoria.html">Gender Dysphoria</a></li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+
+
+<!--                    <li class="nav-item dropleft">-->
+<!--                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"-->
+<!--                           id="navbarDropdownTeam" role="button">Team</a>-->
+<!--                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">-->
+<!--                            <li><a class="dropdown-item" href="../../templates/team/about-us.html">About us</a></li>-->
+<!--                            <li><a class="dropdown-item" href="../../templates/team/careers.html">Careers</a></li>-->
+<!--                            <li><a class="dropdown-item" href="../../templates/team/clinicians.html">Clinicians</a></li>-->
+<!--                            <li><a class="dropdown-item" href="../../templates/team/contact-us.html">Contact us</a></li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+
+<!--                    <li class="nav-item dropleft">-->
+<!--                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"-->
+<!--                           id="navbarDropdownResources" role="button">Resources</a>-->
+<!--                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Access</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-eligible-areas.html">Eligibility</a>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/mental-health-professional.html">Professional-->
+<!--                                        Mental Health Service</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Counselling</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item"-->
+<!--                                           href="../../templates/resources/counseling-for-men-therapy-for-toxic-masculinity.html">Counseling-->
+<!--                                        for men</a></li>-->
+<!--                                    <li class="dropdown-submenu dropend">-->
+<!--                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Grief</a>-->
+<!--                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/does-grief-counseling-help.html">Does grief-->
+<!--                                                counselling-->
+<!--                                                help?</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/does-medicare-cover-grief-counseling.html">Does Medicare cover-->
+<!--                                                grief counselling?</a>-->
+<!--                                            </li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/grief-counseling-therapy-to-deal-with-loss.html">Grief-->
+<!--                                                counseling</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/how-does-grief-counselling-work.html">How does grief-->
+<!--                                                counselling work</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/is-grief-counseling-for-you.html">Is grief counseling-->
+<!--                                                for you?</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/workplace-counselling.html">Workplace Counselling</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">FAQ</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/how-can-we-help.html">How can we help</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/how-does-telehealth-work.html">How does telehealth-->
+<!--                                        work?</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/legal-reports.html">Legal Reports</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-faq.html">Telehealth questions</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Location</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/public-melbourne-psychologist.html">Melbourne</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/public-perth-psychologist.html">Perth</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/public-sydney-psychologist.html">Sydney</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychiatry</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/first-psychiatrist-appointment.html">First Psychiatrist-->
+<!--                                        Appointment</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/our-telehealth-psychiatry-service.html">Our Telehealth Psychiatry-->
+<!--                                        Service</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/physical-and-mental-health.html">Physical & Mental-->
+<!--                                        Health</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/psychiatrist-near-me.html">Psychiatrist near me</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/seeing-your-psychiatrist-online.html">Seeing your psychiatrist-->
+<!--                                        online</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychology</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li class="dropdown-submenu dropend">-->
+<!--                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Guide</a>-->
+<!--                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/bulk-billing-psychologist.html">Bulk Billing-->
+<!--                                                Psychologist</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/five-reasons-to-see-a-psychologist.html">Five reasons to see-->
+<!--                                                a psychologist</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/psychologist-or-psychiatrist.html">Psychologist or-->
+<!--                                                Psychiatrist?</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/psychology-via-telehealth-benefits.html">Psychology via-->
+<!--                                                telehealth benefits</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li class="dropdown-submenu dropleft">-->
+<!--                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Types</a>-->
+<!--                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/what-does-a-clinical-psychologist-do.html">Clinical-->
+<!--                                                Psychologist</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/different-types-of-psychologists-an-overview.html">Different Types of-->
+<!--                                                Psychologists</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li class="dropdown-submenu dropleft">-->
+<!--                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Testing &-->
+<!--                                            Assessment</a>-->
+<!--                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/adult-adhd-test.html">Adult ADHD</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/adult-autism-test.html">Adult autism-->
+<!--                                                test</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/adult-dyslexia-test.html">Adult Dyslexia-->
+<!--                                                test</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/dementia-tests.html">Dementia</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/emotional-intelligence-test.html">Emotional-->
+<!--                                                Intelligence</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/personality-testing.html">Personality-->
+<!--                                                Testing</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="dropdown-submenu dropleft">-->
+<!--                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychotherapy</a>-->
+<!--                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                    <li class="dropdown-submenu dropleft">-->
+<!--                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Acceptance-->
+<!--                                            and Commitment Therapy</a>-->
+<!--                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/acceptance-and-commitment-therapy.html">Acceptance and-->
+<!--                                                Commitment Therapy</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li class="dropdown-submenu dropleft">-->
+<!--                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Cognitive-->
+<!--                                            Behavioural Therapy (CBT)</a>-->
+<!--                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/what-is-cbt.html">What is CBT-->
+<!--                                                (Cognitive Behavioral Therapy)</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/cbt-for-insomnia.html">CBT for-->
+<!--                                                insomnia</a></li>-->
+<!--                                            <li><a class="dropdown-item" href="../../templates/resources/trauma-focused-cognitive-behavioral-therapy.html">What is trauma-->
+<!--                                                focused CBT</a></li>-->
+<!--                                        </ul>-->
+<!--                                    </li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/couples-therapy.html">Couples Therapy</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/family-therapy.html">Family Therapy</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/interpersonal-therapy-for-depression.html">Interpersonal Therapy</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/mindfulness-based-cognitive-therapy.html">Mindfulness-based cognitive-->
+<!--                                        therapy</a></li>-->
+<!--                                    <li><a class="dropdown-item" href="../../templates/resources/schema-therapy.html">Schema Therapy</a></li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </li>-->
+
+<!--                    <li class="nav-item">-->
+<!--                        <a class="nav-link" href="../../templates/blogs/blog-1.html">Blog</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <div class="d-flex" id="btn-login">-->
+<!--                    <a class="btn btn-secondary text-white d-flex" href="#">Login</a>-->
+<!--                </div>-->
+<!--                <form class="d-flex">-->
+<!--                    <div class="input-group">-->
+<!--                        <input aria-label="Search" class="form-control" placeholder="Search" type="search">-->
+<!--                        <div class="input-group-append">-->
+<!--                            <button class="btn btn-secondary" type="button">-->
+<!--                                <i class="fa fa-search"></i>-->
+<!--                            </button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </form>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </nav>-->
+    <!--navigation bar ends here-->
+</div>
+
+<section id="blog-article">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h1>IPT - Interpersonal Therapy for depression</h1>
+            </div>
+        </div>
+
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>>';">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Resources</a></li>
+                <li class="breadcrumb-item"><a href="#">Psychotherapy</a></li>
+                <li aria-current="page" class="breadcrumb-item active" style="color: #54444E;">IPT - Interpersonal Therapy for depression</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- para section-->
+<div class="container">
+    <div class="row py-3" style="justify-content: center;">
+        <div class="col-3 col-lg-3 order-2" id="sticky-sidebar">
+            <div class="sticky-top">
+                <div class="nav flex-column">
+                    <a href="#topic-1" class="nav-link">What is Interpersonal Therapy?</a>
+                    <a href="#topic-2" class="nav-link">What are the conditions that can be treated 
+                        with Interpersonal Therapy?</a>
+                    <a href="#topic-3" class="nav-link">IPT for Depression</a>
+                    <a href="#topic-4" class="nav-link">How does IPT work?</a>
+                    <a href="#topic-5" class="nav-link">The IPT process</a>
+                    <a href="#topic-6" class="nav-link">How can you benefit from IPT?</a>
+                    <a href="#topic-7" class="nav-link">Is Interpersonal Therapy for you?</a>
+                    <a href="#topic-8" class="nav-link">What should you consider before trying 
+                        Interpersonal Therapy?</a>
+                    <a href="#topic-9" class="nav-link">What can be expected after the IPT?</a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-9 col-lg-9" id="main">
+
+            <p>The way we interact with the rest of the world plays a major role in shaping 
+                our lives. It is important to know how to maintain healthy relationships
+                 with your loved ones. Especially because these relationships can have 
+                 significant effects on our mental health. Interpersonal therapy – IPT 
+                 can help people improve the quality of their societal functions and to 
+                 reduce the emotional stress caused by them.</p><br>
+
+            <h2 class="mt-3" id="topic-1">What is Interpersonal Therapy?</h2>
+            <p>IPT is a timed and focused treatment. It is specified for mood disorders. 
+                IPT’s major goal is to strengthen a client’s relationships and social 
+                functioning. This is in order to make them feel less distressed. IPT 
+                offers ways for resolving issues in four major areas.</p>
+            <p>IPT session begins by talking about interpersonal issues. These can 
+                include social isolation. At times they are engagements that are resulted 
+                from unsatisfying relationships. After that, therapists check if the 
+                distress is caused by grief. This situation mostly occurs due to the death 
+                of a loved one. IPT helps patients handle unresolved grief. IPT can also 
+                assist with tough life changes. This can be situations such as retirement, 
+                divorce, or relocating to a new place. Also, IPT helps with resolving 
+                interpersonal conflicts. They may be arising because of unmatched expectations 
+                among partners, family members, close friends, etc.</p>
+            <p>It is true that the sole cause of depression is not relationships. 
+                However, relationships can still be an issue.</p>
+            <p>So, IPT aims to make social interaction a little easier. This is by educating 
+                individuals on how to communicate better, react better, and thus avoid stress. 
+                It has found to be as effective as antidepressant medication.</p><br>
+
+            <h2 class="mt-3" id="topic-2">What are the conditions that can be treated 
+                with Interpersonal Therapy?</h2>
+            <p>IPT mainly focuses on depression. It is an effective therapy choice for those 
+                suffering from depression. This is based on the fact that persons with 
+                depressive symptoms have issues with their daily interactions. They tend 
+                to hide away from the world. Relationship problems are among the most 
+                common depressive symptoms. However, bad relationships are not the 
+                sole cause of mental stress. Strengthened relationships are a crucial 
+                support network throughout the healing process. A healthy circle can 
+                help a person live a healthy life. The effect of positive energy is 
+                really important to lift up their mood.</p>
+            <p>However, depression is not the only condition that can be benefited 
+                by IPT. It also works wonders on several other conditions.</p>
+            <p>Among these are eating disorders, drug, and alcohol abuse, and other 
+                mood disorders, including bipolar disorder, which have all been treated 
+                with IPT. IPT varies from other classic therapy techniques. It focuses on 
+                current relationships rather than past ones. It also acknowledges the 
+                internal tension, enough to help deal with it but does not emphasize it.</p>
+            <p>In general, IPT offer active, nonjudgmental treatment. It is important 
+                that those who help a mentally stressed person can sympathize. These help 
+                persons in therapy overcome obstacles. It aids their mental health. The 
+                treatment session will address many topics. Most of it will involve 
+                relationships with loved ones. It only targets dysfunctional beliefs 
+                and behaviours. Thus it will differ from cognitive and behavioural 
+                therapy. IPT focuses on changing relationship patterns. Not so much 
+                on depressive symptoms that accompany them, and address relationship 
+                issues that worsen these symptoms.</p>
+            <p>Below are a few other conditions that usually seek the help of IPT</p>
+            <ul>
+                <li>Anxiety</li>
+                <li>Eating Disorders</li>
+                <li>Substance abuse</li>
+                <li>Bipolar Disorder</li>
+                <li>Postpartum depression</li>
+                <li>Social phobia</li>
+            </ul><br>
+
+            <h2 class="mt-3" id="topic-3">IPT for Depression</h2>
+            <p>IPT is a very effective short-term treatment method for depression. 
+                Overcoming depression is its first goal. It focuses on interpersonal 
+                concerns. IPT has been proven in studies to be at least as beneficial 
+                as medication treatment for mild to severe clinical depression. IPT 
+                has been helpful in the treatment of children’s depression. However, 
+                it was originally used to treat adult depression. IPT is frequently 
+                recommended as a treatment for depression in children.</p>
+            <p>Events that occur in the context of IPT do not lead to depression. 
+                However, depression occurs while interacting. It has an impact on the 
+                roles that people play in those relationships. For example, if your 
+                spouse and parents can’t agree on something, you are likely to be 
+                the middle man. You will have to choose. Obviously, your choice will 
+                not satisfy both sides. This will lead you into distress.</p>
+            <p>IPT for depression focuses on how symptoms are linked to a person’s 
+                connections, particularly family and peers. This is done by treating 
+                interpersonal issues.</p>
+            <p>The treatment’s initial aim is to reduce symptoms quickly and promote 
+                social interaction. The long-term goal is to reduce persons suffering 
+                from depression and help them to make the necessary 
+                changes on their own.</p><br>        
+
+            <h2 class="mt-3" id="topic-4">How does IPT work?</h2>
+            <p>IPT is a type of short-term treatment. It comprises 12 to 16 one-hour 
+                weekly sessions. The therapist focuses on difficulties that can be 
+                seen in how a person interacts with others or does not do so. When 
+                those issues are addressed, the patient notices a difference in 
+                their symptoms. It is likely to improve their social life.</p>
+            <p>An interview with your therapist is usually the first step in treatment. 
+                They can detect difficulties in your personal relationships. That is 
+                based on the issues you describe. They will build a treatment plan
+                 which will help you reach your goals.</p>
+            <p>You and your <a href="https://epsychiatry.com.au/clinicians/"> therapist</a> 
+                will concentrate on the most important topics 
+                you want to address. They may use various techniques such as role-playing, 
+                storytelling, in order to see the world from your perspective. This 
+                helps them relate to you and help you better.</p>
+            <p>IPT in comparison to other modern psychotherapies (such as CBT) does not 
+                focus on unconscious sources of current feelings and behaviours. Instead, 
+                IPT focuses on how symptoms are shown by more immediate challenges 
+                connecting with others.</p>
+            <p>Depression symptoms can take a severe toll on personal relationships. 
+                People who are depressed are more likely to exhibit displeasure at others 
+                as a result of this.</p>
+            <p>Feelings of depression can arise for a variety of causes. Major life changes 
+                can increase the chance of depression. Changes or “adjustments” of this 
+                nature come into one of four categories:</p>
+            <h4><strong>Grief</strong></h4>
+            <p>When a loved one passes away, depression can set in. Going through the five 
+                stages of grieving is natural. In this case, a big loss can also lead to 
+                unresolved grief. This is grieving that is delayed (lasts a long time after the loss), 
+                distorted, or grief in which you don’t feel emotions. Instead have symptoms 
+                like insomnia.</p>
+            <h4><strong>Role transition</strong></h4>
+            <p>Changing circumstances can take a toll. Whether developmental, changes in job or 
+                social situations or a life event. or the end of a relationship, it differs. 
+                These changes are regarded as losses in depression and add to the despair.</p>
+            <h4><strong>Interpersonal conflicts</strong></h4>
+            <p>These conflicts might arise in the context of a marriage, a family, a social 
+                gathering, a school, or a workplace. Disagreements arise when people have 
+                different expectations. The problem that must be handled is the discomfort 
+                caused by the conflicts.</p>
+            <h4><strong>Interpersonal deficit</strong></h4>
+            <p>This refers to a patient’s “underdeveloped” personal ties. They can be 
+                either in terms of quantity or quality.</p>
+            <p>Your therapist will try to figure out what happened in your life to 
+                cause your depression. They will try to teach you the skills you will 
+                need to channel negative emotions into positive ones. They may provide 
+                you with skills to practice in order to better communicate with family 
+                members or romantic partners.</p><br>
+
+            <h2 class="mt-3" id="topic-5">The IPT process</h2>
+            <p>The early sessions of IPT are to diagnose depression. This includes the 
+                introduction to the IPT method. This is to find particular concerns or 
+                problems. You and the therapist would make a list of your concerns, 
+                rate them, and decide which issues look to be vital to address. 
+                The upcoming sessions will address those. This includes learning 
+                more about them, changes you can make, and the action plan. The 
+                therapist might employ a few tactics throughout this part of the 
+                therapy. These include the following:</p>
+            <ul>
+                <li>Clarification</li>
+                <li>Listening</li>
+                <li>Roleplay</li>
+                <li>Storytelling</li>
+                <li>analyzing content</li>
+            </ul>
+            <p>The encouragement allows you to experience unpleasant or unwanted feelings 
+                and emotions. These are associated with interpersonal issues. This unpleasant 
+                time will happen in a secure therapy setting. Accepting those feelings and 
+                emotions is part of what makes your growth easier.</p>
+            <p>The sessions will be focused on resolving the issues that have been identified. 
+                Some people find this difficult to adjust to. In most cases, particularly those 
+                who are used to more traditional approaches to therapy. It may take a few weeks 
+                for your focus to move to the IPT method.</p>
+            <p>The push to stop therapy is another part of the IPT process. The patient is 
+                aware from the start that therapy has a time limit. The sessions will focus 
+                on what happens after the IPT, during the last few sessions.</p>
+            <p>Stopping IPT is a loss that the patient will have to bear. As a result, the 
+                therapist will ask to analyze the effect of the loss on you. What difficulties
+                 does it raise? How can you use the adjustments you’ve learned to help you 
+                 cope with the loss? The goal is for the patient to become more conscious 
+                 of their abilities to deal with issues that have prevented them from 
+                 actively managing their symptoms.</p><br>
+
+            <h2 class="mt-3" id="topic-6">How can you benefit from IPT?</h2>
+            <p>Depression can develop after a loved one passes away. While it is common to 
+                go through the five stages of grief in this situation, a loss can also result 
+                in unresolved grief. It will last a long time after the loss, or grief in 
+                which you don’t feel emotions. Instead have depressive symptoms like insomnia.</p>
+            <p>IPT can assist patients to understand better of how their connections affect 
+                their lives. The idea is to help people perform better socially while also 
+                reducing their depression.</p>
+            <p>IPT is based on the idea that depression occurs as a result of interpersonal 
+                connections. To put it another way, your relationships have the power to 
+                raise or lessen your depression. Feeling depressed can affect your 
+                relationships. As a result, the purpose of IPT is to improve how you 
+                connect with others. That is to reduce your depression symptoms.</p>
+            <p>IPT delivers effective results within a very short treatment period. It is 
+                a very short-term approach. Not to mention the sense of hope it gives to 
+                these individuals. Most of the time the people seeking IPT are very 
+                hopeless about life. This keeps them going. It also introduces a new 
+                set of ways on how to deal with set backing episodes.</p><br>
+            
+            <h2 class="mt-3" id="topic-7">Is Interpersonal Therapy for you?</h2>
+            <p>IPT is one of many types of psychotherapy. There are several factors that 
+                determine IPT’s effectiveness. Those are the events you’ve gone through 
+                and the severity of your problems.</p>
+            <p>If you are suffering from depression, bipolar, social anxiety, or any of 
+                the above issues, IPT may be the best treatment method for you. Talk to 
+                your doctor or therapist further about this.</p><br>
+
+            <h2 class="mt-3" id="topic-8">What should you consider before trying 
+                Interpersonal Therapy?</h2>
+            <p>IPT does not try to address underlying difficulties that are the result 
+                of previous events. This is different from other types of depression 
+                treatment. Instead, IPT focuses on your present relationships. On how 
+                they may be causing your depression symptoms. Also on how you might 
+                improve your interactions to attain a better 
+                <a href="https://epsychiatry.com.au/contact-us/">mental</a> state.</p>
+            <p>It’s also worth noting that problems like depression and eating 
+                disorders may reoccur. Maintenance is required even after IPT. 
+                This helps prevent relapse. It also helps reinforce skills, and 
+                maintain improvement. This could include a monthly session to brush 
+                up on skills. It gives the necessary push to handle life changes. 
+                In other words, it’s a never-ending process. You have to keep working 
+                on yourself. You have to stay on track. Identify signs before it is 
+                too late. IPT only provides guidance. The hard work is in the 
+                patient’s hand.</p><br>
+
+            <h2 class="mt-3" id="topic-9">What can be expected after the IPT?</h2>
+            <p>Patients are urged to keep up IPT and to keep up with managing the 
+                taught practices. Depression is sometimes a recurrent disease. 
+                Some people may have many recurrences. Maintenance is done once 
+                a month and involves recapping the tactics that were practised 
+                during the short-term IPT. The goal is to keep the individual 
+                functioning healthily. That is at least at the level they were 
+                after regular sessions stopped. Preventing the stress of added 
+                social engagement from triggering fresh episodes of depression 
+                does the trick.</p><br>
+            
+            </div>
+    </div>
+</div>
+<!-- end of para section-->
+
+<!-- Footer -->
+<!-- Site footer -->
+<div id="footer3"></div>
+<!--<footer class="site-footer">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-xs-6 col-md-4">-->
+<!--                <h6>Contact us</h6>-->
+<!--                <form>-->
+<!--                    <div class="mb-3">-->
+<!--                        <input class="form-control" id="contact-us-name" placeholder="Name*" required-->
+<!--                               style="max-width: 350px" type="text">-->
+<!--                    </div>-->
+<!--                    <div class="mb-3">-->
+<!--                        <input class="form-control" id="contact-us-email" placeholder="E-mail*" required-->
+<!--                               style="max-width: 350px" type="email">-->
+<!--                    </div>-->
+<!--                    <div class="mb-3">-->
+<!--                        <textarea class="form-control" id="contact-us-message" placeholder="Message*" required-->
+<!--                                  rows="5" style="max-width: 350px"></textarea>-->
+<!--                    </div>-->
+<!--                    <button class="btn btn-primary" style="margin-bottom: 5px;" type="submit">Submit</button>-->
+<!--                </form>-->
+<!--            </div>-->
+
+<!--            <div class="col-sm-12 col-md-4">-->
+<!--                <h6>Important</h6>-->
+<!--                <p class="text-justify">This is not an emergency service. Same day consults are not available.-->
+<!--                    If you are in distress please contact your nearest emergency department,-->
+<!--                    your local area mental health service triage or dial “000</p>-->
+<!--            </div>-->
+
+<!--            <div class="col-xs-6 col-md-4">-->
+<!--                <h6>Learn More</h6>-->
+<!--                <ul class="footer-links">-->
+<!--                    <li><a href="">Psychology via Telehealth Benefits</a></li>-->
+<!--                    <li><a href="">Five reasons to see a psychologist</a></li>-->
+<!--                    <li><a href="">Professional Mental Health Service</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <hr>-->
+<!--    </div>-->
+<!--    <div class="container mt-3" style="text-align: center">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12 col-sm-12 col-xs-12">-->
+<!--                <p class="copyright-text">Copyright &copy; 2021 Epsychiatry Pty. Ltd. All rights reserved.</p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</footer>-->
+<!-- ./Footer -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

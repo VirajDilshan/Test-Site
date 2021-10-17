@@ -1,0 +1,860 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--local stylesheet-->
+    <link href="../../css/styles.css" rel="stylesheet">
+    <!--fontawesome icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--google fonts integration -->
+
+    <title>Mood Swings - Emotional Ups and Downs | Epsychiatry</title>
+    <!--    favicon -->
+    <link href="../../images/Logo-100px.png" rel="shortcut icon" type="image/jpg"/>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>  
+        $(function(){ 
+          $("#nav2").load("nav2.html"); 
+          $("#footer").load("footer2.html");   
+        }); 
+      </script>
+
+</head>
+<body>
+
+<div class="container-fluid nopadding">
+    <!--upper header area starts here-->
+    <div class="upper-section">
+        <p id="upper-id"><i aria-hidden="true" class="fa fa-envelope" style="color: #B1B4B8"></i> <a
+                href="mailto: support@epsychiatry.com.au">support@epsychiatry.com.au</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-youtube-play"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-instagram"></i></a>
+            <a href="#"><i aria-hidden="true" class="fa fa-pinterest"></i></a>
+        </p>
+    </div>
+    <!--upper header ares ends here-->
+    <hr>
+    <div id="nav2"></div>
+    <!--navigation bar starts here-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"><img alt="Home" src="../../images/Logo-100px.png"></a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownServices" role="button">Services</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu" role="menu">
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" href="../../templates/services/anxiety-treatment.html">Anxiety</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/what-is-agoraphobia.html">Agoraphobia</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/ocd.html">OCD</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/panic-attacks.html">Panic
+                                        Attacks</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/phobias.html">Phobias</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/separation-anxiety-in-adults.html">Separation
+                                        Anxiety Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/stress-mental-health.html">Stress &
+                                        Mental Health</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/social-anxiety-disorder.html">Social
+                                        Anxiety Disorder</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Developmental</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/relationship-attachment-style.html">Attachment</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/autism-in-adults.html">Autism in
+                                        Adults</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/identity-crisis-feeling-lost-what-can-you-do.html">Identity
+                                        Crisis</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/tic-disorder-tics-motor-tics-and-vocal-tics.html">Tics
+                                        Disorder()</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Eating</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/binge-eating-disorder.html">Binge
+                                        Eating Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/bulimia-nervosa.html">Bulimia
+                                        Nervosa</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Habits</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/caffeine-use-disorder.html">Caffeine
+                                        Use Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/excessive-daydreaming.html">Excessive
+                                        Daydreaming</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/hoarding-disorder.html">Hoarding
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/video-game-addiction.html">Video
+                                        Game Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/impulse-control-disorder.html">Impulse
+                                        Control Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/stealing-(Kleptomania).html">Stealing</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mind-Body</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/chronic-fatigue.html">Chronic
+                                        Fatigue</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/functional-neurological-disorder.html">Functional
+                                        Neurological Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/headaches.html">Headaches</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/pain.html">Pain</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/poor-body-image.html">Poor Body
+                                        Image</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Mood</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/adjustment-disorder.html">Adjustment
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/Apathy-Persistent-Depressive-Disorder.html">Apathy</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/bipolar.html">Bipolar</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/cyclothymic-disorder.html">Cyclothymic
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/depression.html">Depression</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/prolonged-grief-reaction.html">Grief
+                                        & Loss</a></li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown">Lack of
+                                            Interest</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item"
+                                                   href="../../templates/services/lack-of-interest-or-no-interest.html">Lack of
+                                                Interest or No Interest</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/loneliness-and-social-isolation.html">Loneliness</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/low-self-esteem.html">Low Self
+                                        Esteem</a></li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Major
+                                            Depressive Disorder</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item"
+                                                   href="../../templates/services/depression-major-depressive-disorder.html">
+                                                Depression</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/mood-swings-emotional-ups-and-downs.html">Mood Swings</a>
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/persistent-depressive-disorder-dysthymia.html">Persistent
+                                        Depressive Disorder</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Personality-Temprement</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/anger-management.html">Anger
+                                        Management</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/avoidant-personality-disorder.html">Avoidant Personality
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/services/dependent-personality-disorder.html">Dependent
+                                        Personality
+                                        Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/impulsivit-&-disinhibition.html">Impulsivity
+                                        &
+                                        Disinhibition</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/narcissism.html">Narcissism – an
+                                        overview of Narcissistic behaviour</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/obsessive-compulsive-personality-disorder.html">Obsessive-Compulsive
+                                        Personality Disorder</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/paranoid-personality-disorder.html">Paranoid Personality</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychosis</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/psychosis.html">Psychotic Episode</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Relational</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                           href="#">Conflict</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/services/conflict-resolution.html">Conflict
+                                                resolution</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/services/pregnancy&mental-health.html">Pregnancy & Mental
+                                        Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Sleep</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/poor-sleep-mental-health.html">Poor Sleep & Mental
+                                        Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Trauma</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/services/acute-stress-reaction.html">Acute Stress Reaction</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/services/PTSD.html">PTSD Reaction</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="../../templates/services/gender-dysphoria.html">Gender Dysphoria</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropleft">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownTeam" role="button">Team</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../../templates/team/about-us.html">About us</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/careers.html">Careers</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/clinicians.html">Clinicians</a></li>
+                            <li><a class="dropdown-item" href="../../templates/team/contact-us.html">Contact us</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropleft">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdownResources" role="button">Resources</a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Access</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-eligible-areas.html">Eligibility</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/mental-health-professional.html">Professional
+                                        Mental Health Service</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Counselling</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item"
+                                           href="../../templates/resources/counseling-for-men-therapy-for-toxic-masculinity.html">Counseling
+                                        for men</a></li>
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Grief</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/does-grief-counseling-help.html">Does grief
+                                                counselling
+                                                help?</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/does-medicare-cover-grief-counseling.html">Does Medicare cover
+                                                grief counselling?</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/grief-counseling-therapy-to-deal-with-loss.html">Grief
+                                                counseling</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/how-does-grief-counselling-work.html">How does grief
+                                                counselling work</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/is-grief-counseling-for-you.html">Is grief counseling
+                                                for you?</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/workplace-counselling.html">Workplace Counselling</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">FAQ</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/how-can-we-help.html">How can we help</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/how-does-telehealth-work.html">How does telehealth
+                                        work?</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/legal-reports.html">Legal Reports</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/telehealth-faq.html">Telehealth questions</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Location</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-melbourne-psychologist.html">Melbourne</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-perth-psychologist.html">Perth</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/public-sydney-psychologist.html">Sydney</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychiatry</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li><a class="dropdown-item" href="../../templates/resources/first-psychiatrist-appointment.html">First Psychiatrist
+                                        Appointment</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/our-telehealth-psychiatry-service.html">Our Telehealth Psychiatry
+                                        Service</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/physical-and-mental-health.html">Physical & Mental
+                                        Health</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/psychiatrist-near-me.html">Psychiatrist near me</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/seeing-your-psychiatrist-online.html">Seeing your psychiatrist
+                                        online</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychology</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropend">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Guide</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/bulk-billing-psychologist.html">Bulk Billing
+                                                Psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/five-reasons-to-see-a-psychologist.html">Five reasons to see
+                                                a psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/psychologist-or-psychiatrist.html">Psychologist or
+                                                Psychiatrist?</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/psychology-via-telehealth-benefits.html">Psychology via
+                                                telehealth benefits</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Types</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/what-does-a-clinical-psychologist-do.html">Clinical
+                                                Psychologist</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/different-types-of-psychologists-an-overview.html">Different Types of
+                                                Psychologists</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Testing &
+                                            Assessment</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-adhd-test.html">Adult ADHD</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-autism-test.html">Adult autism
+                                                test</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/adult-dyslexia-test.html">Adult Dyslexia
+                                                test</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/dementia-tests.html">Dementia</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/emotional-intelligence-test.html">Emotional
+                                                Intelligence</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/personality-testing.html">Personality
+                                                Testing</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu dropleft">
+                                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Psychotherapy</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Acceptance
+                                            and Commitment Therapy</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/acceptance-and-commitment-therapy.html">Acceptance and
+                                                Commitment Therapy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu dropleft">
+                                        <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#">Cognitive
+                                            Behavioural Therapy (CBT)</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownSubMenuLink">
+                                            <li><a class="dropdown-item" href="../../templates/resources/what-is-cbt.html">What is CBT
+                                                (Cognitive Behavioral Therapy)</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/cbt-for-insomnia.html">CBT for
+                                                insomnia</a></li>
+                                            <li><a class="dropdown-item" href="../../templates/resources/trauma-focused-cognitive-behavioral-therapy.html">What is trauma
+                                                focused CBT</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/couples-therapy.html">Couples Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/family-therapy.html">Family Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/interpersonal-therapy-for-depression.html">Interpersonal Therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/mindfulness-based-cognitive-therapy.html">Mindfulness-based cognitive
+                                        therapy</a></li>
+                                    <li><a class="dropdown-item" href="../../templates/resources/schema-therapy.html">Schema Therapy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../templates/blogs/blog-1.html">Blog</a>
+                    </li>
+                </ul>
+                <div class="d-flex" id="btn-login">
+                    <a class="btn btn-secondary text-white d-flex" href="#">Login</a>
+                </div>
+                <form class="d-flex">
+                    <div class="input-group">
+                        <input aria-label="Search" class="form-control" placeholder="Search" type="search">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav> -->
+    <!--navigation bar ends here-->
+</div>
+
+<section id="blog-article">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <h1>Mood Swings - Emotional Ups and Downs</h1>
+            </div>
+        </div>
+
+        <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>>';">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Services</a></li>
+                <li aria-current="page" class="breadcrumb-item active" 
+                style="color: #54444E;">Mood Swings - Emotional Ups and Downs</li>
+            </ol>
+        </nav>
+    </div>
+</section>
+
+<!-- para section-->
+<div class="container">
+    <div class="row py-3" style="justify-content: center;">
+        <div class="col-3 col-lg-3 order-2" id="sticky-sidebar">
+            <div class="sticky-top">
+                <div class="nav flex-column">
+                    <a href="#topic-1" class="nav-link">What are Mood Swings?</a>
+                    <a href="#topic-2" class="nav-link">What can cause Mood Swings?</a>
+                    <a href="#topic-3" class="nav-link">Treating mood swings</a>
+                    <a href="#topic-4" class="nav-link">Psychotherapy</a>
+                    <a href="#topic-5" class="nav-link">Signs that it is time to get help for your mood swings</a>
+                    <a href="#topic-6" class="nav-link">Ways to prevent mood swings</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-9 col-lg-9" id="main">
+
+            <p>Do you feel yourself being extremely happy at one point and within seconds 
+                you are very irritable, annoyed, and want to start a fight? One minute 
+                you are in cloud 09 and then the next second you are on the ground. 
+                However, the next minute you are up again! Chances are you may have 
+                not noticed this happening to you unless someone points you out to be 
+                emotionally unstable or having extreme mood swings. Is this normal? 
+                If not, what can we do about this?</p><br>
+
+            <h2 class="mt-3" id="topic-1">What are Mood Swings?</h2>
+            <p>Simply explained, Mood swings are the drastic shift in an individual’s mood 
+                for no clear reason. In other words, the reasons for these mood shifts may 
+                not be so apparent. Those who have experienced Mood Swings explain them to 
+                be a rollercoaster of different and extreme emotions. In other words, their 
+                emotions are constantly shifting. At the beginning of experiences these mood 
+                swings, one may recognize a specific event that could have led to it. The 
+                underlying cause of mood swings can also be an undiagnosed illness.</p><br>
+
+            <h2 class="mt-3" id="topic-2">What can cause Mood Swings?</h2>
+            <p>
+                As mentioned before, there are several causes that can result in mood swings.
+            </p><br>
+
+            <h3><strong>Stress, anxiety and other pressures</strong></h3>
+            <p>Stress full situations and the strains caused by them can result in rapid 
+                mood swings, especially when one tries to calm themselves down while 
+                under stress. For example, it can be like trying to keep a floating 
+                board underwater. No matter how much you try, eventually, it resurfaces. 
+                Similarly, even after trying very hard to keep the stressful feelings in 
+                check, when it eventually resurfaces it can result in mood swings. 
+                Stressful memories can hit you when you least expect them making you 
+                suddenly irritated and upset.</p>
+
+            <p>This can also depend on your sensitivity and how easily you react to things. 
+                You may be suffering from anxiety if you are scared or uneasy 
+                for no apparent reason.</p><br>
+
+            <h3><strong>Depression</strong></h3>
+            <p>An individual who has depressive signs may also have frequent mood swings. 
+                As soon as they feel okay, they may be upset again, then before they know 
+                it they might find balance again. If you think you are expressing mood 
+                swings due to depression, try to get help from a counselor. Research a 
+                bit more on depression to identify if that is what is behind 
+                your mood shifts.</p>
+
+            <p>Below are a few symptoms of depression that you may be experiencing,</p>
+
+            <ul>
+                <li>Hopelessness</li>
+                <li>Feeling sad and unhappy</li>
+                <li>Wanting to isolate yourself often</li>
+                <li>Sleeping less or sleeping too much</li>
+                <li>Lethargic</li>
+                <li>Binge eating or starving yourself</li>
+                <li>Difficulty focusing on anything</li>
+                <li>Frequent suicidal thoughts or thoughts to harm others</li>
+            </ul><br>
+
+            <h3><strong>Sleep deprivation and exhaustion</strong></h3>
+            <p>Sleep and rest are essential for your body to recover from the day’s 
+                work and get ready for a new day. Not getting this rest through sleep 
+                means you aren’t refreshed and ready for another day. This can leave 
+                you cranky, tired, and easily irritable, causing mood swings. You are 
+                likely to of drifting focus, making choices without thinking, and 
+                generally not likable. Further, continuous sleep deprivation can result 
+                in other mental health problems such as depression.</p><br>
+
+            <h3><strong>Substance use</strong></h3>
+            <p>It is quite hard to use things that make you lose the sense of the real 
+                world and not to have mood swings. Substance abuse can cause serious 
+                neurological damage and the high of substance use takes time to go down. 
+                During this time of hangover one is likely to be cranky, lethargic, 
+                exhausted while being happy, loud, destructive, and out of their minds 
+                while still high. Substances and drugs are famous to bring past memories 
+                to the high. This can definitely be a time when one experiences various 
+                moods. However, this doesn’t last forever. Once the high and hangover 
+                have passed, the individuals come back to reality.</p><br>
+
+            <h3><strong>Blood sugar levels being low</strong></h3>
+            <p>If you are the type of person who gets mad when you are hungry, 
+                this may be the reason. Low blood sugar results when one goes too 
+                long in between meals, causing headache, anger, lethargy, confusion, etc. 
+                A good meal can easily fix this situation.</p><br>
+
+            <h3><strong>Bipolar disorder</strong></h3>
+            <p>Basic symptoms of Bipolar Disorder are focused on drastic highs and lows of 
+                a person. Thus, bipolar disorder can have a very clear link to mood swings. 
+                However, bipolar disorder symptoms are much more severe. When in a good mood, 
+                their phase is almost manic, extremely cheerful, and possibly 
+                hallucinating too. The opposite can be just as bad. For example, 
+                while someone with mood swings may ditch a friend they used to love 
+                hanging out with, another diagnosed with bipolar disorder might not go 
+                for exams for a whole week and fail the year. During these days they are sad, 
+                unmotivated, unhappy, distant, and in other words, depressed.</p><br>
+                
+            <h3><strong>Hormones</strong></h3>
+            <p>Hormonal changes can result in rapid unexplained shifts in mood. We are all 
+                aware of teenage outbursts, pregnancy hormones causing mood shifts, the cranky
+                 mood of ladies due to period, among other situations. These are all true. 
+                 Most of the time, these mood swings settle down with the hormones coming 
+                 back to the normal rate. The level of hormones in the body changes the way 
+                 you feel. For example, during pregnancy, your mood can shift from good to 
+                 bad. During PMS, it is normally cranky. The same can be said about 
+                 Menopause, during which the body makes a fewer amount of hormones, causing 
+                 sleep deprivation, and mood swings. This can lead all the way back to the 
+                 Thyroid. The main cause behind this can be either the less or more production 
+                 of hormones from the Thyroid glands.</p><br>
+
+            <h3><strong>ADHD</strong></h3>
+            <p>Do you know what ADHD is? In basic terms, hyperactivity coming in the way of 
+                focus and living life is meant by ADHD which is a brain disorder. 
+                Mood swings can be frequently seen in those who are diagnosed with ADHD.</p><br>
+
+            <h3><strong>Medications</strong></h3>
+            <p>Side effects of some medications can result in mood swings. While the 
+                medication is helping an individual within their body their responses to it 
+                can be different. Some may be exhausted and easily irritable. Some may be 
+                drowsy. There are also medications that make it hard to fall asleep. If you 
+                are experiencing mood swings since you started on a specific medication, 
+                you may want to check with your health care provider about its side effects.</p><br>
+
+            <h3><strong>Borderline Personality Disorder</strong></h3>
+            <p>This is another disorder that has mood swings in its very nature. These are 
+                not the type of mood swings that go away in minutes or hours. Mood swings 
+                caused by Borderline Personality Disorder can last for days. These symptoms 
+                can include very impulsive behavior where the individual does things without 
+                a care about the risk. For example, dangerous driving, life-threatening 
+                events such as diving from very high ends, substance or drug abuse, etc. 
+                Their expressions are unlikely to be contained or mild. They are sudden 
+                blow-ups that are full of rage, panic, or overtaken by abandonment issues. 
+                They may be restless, likely to self-harm, harm others, or commit suicide 
+                at its extreme. Anger issues are a common sign of those who suffer from this 
+                disorder. They have little control over themselves, of how they act, what 
+                they say or decide to do.</p><br>
+
+            <h3><strong>Dementia / Alzheimers</strong></h3>
+            <p>These illnesses mess with one’s memory. They may lose the sense of who they 
+                are and the people around them any minute. In other words, their moods are 
+                never predictable with their renewing memory. They can be calm happy and 
+                collected one minute and angry in the next over something that happened a 
+                long time ago. Their forgetfulness and others trying to make them remember 
+                can frustrate them even further. This can also result in them giving up and 
+                setting to withdraw themselves from the rest of the world.</p><br>
+
+            <h3><strong>Schizophrenia</strong></h3>
+            <p>This is a condition that takes a toll on speech, thinking, emotions, and 
+                every way that can affect a person’s social life. Those who are diagnosed 
+                with this are likely to experience hallucinations, lack of motivation, 
+                confusing speech, delusions, and difficulty concentrating. Mainly due to 
+                the psychosis events their moods are severely unpredictable. They may hear 
+                voices and see things that can make them uneasy, angry, and full of rage. 
+                They are almost always confused and have little idea of reality.</p>
+
+            <p>Except for the above-mentioned factors, Cyclothymia, diet, substance abuse, 
+                or sleeping habits can impact your mood.</p><br>
+
+            <h2 class="mt-3" id="topic-3">Treating mood swings</h2>
+            <p>If you think you are experiencing severe mood swings, the very first step to 
+                follow is meeting up with your health care provider. After tests, and going
+                 over your condition they will be able to decide what is causing your mood 
+                 to shift rapidly, whether it is a lifestyle factor or an underlying illness. 
+                 Based on the findings, your treatment methods will be decided. However, 
+                 there may be a chance you may not need treatment. All of this depends on 
+                 the severity of your mood swings and what is causing them.</p>
+
+            <p>Below are a few treatment methods used to deal with severe mood swings.</p>            
+
+            <h2 class="mt-3" id="topic-4">Psychotherapy</h2>
+            <p>This method is recommended especially if the mood swings result from an 
+                underlying mental health problem. This method helps improve the quality of 
+                life and relationships of the individual.</p>
+
+            <p>Psychotherapy can help an individual with managing their moods, 
+                and healthily deal with what triggers their mood swings. It can help them 
+                understand what caused their mood swings and handle that healthily. 
+                Psychotherapy can be a great way of understanding one’s thoughts, 
+                behaviors, and feelings in-depth while gaining good knowledge about 
+                themselves. It can also help one improve the quality of their relationship 
+                with others around them.</p><br>
+
+            <h3><strong>Certain lifestyle changes to battle mood swings</strong></h3>
+            <p>Healthy lifestyle changes can improve the mood and the quality of life 
+                drastically. These don’t have to be big changes. Small steps towards a stable 
+                life and mood are the goal here. Some of these changes can be,</p>
+
+            <ul>
+                <li>Having a fixed sleeping schedule. Make sure you get sufficient
+                     sleep and that you are well-rested.</li>
+                <li>Taking meals at a proper time every day</li>
+                <li>Staying active.</li>
+                <li>Staying happy and practising positivity</li>
+                <li>Meditating and mindfulness practices</li>
+                <li>Spending time with loved ones</li>
+                <li>Avoiding stressful activities. This may not be so easy, but if you have had an 
+                    exhausting day and your therapist said you need to meet more friends, 
+                    it is okay to pass. Your health comes first.</li>
+                <li>Keeping in touch with the mood by maintaining a journal. This way 
+                    you can track your progress and know whether if it is getting 
+                    better or worse.</li>
+                <li>Take it easy on yourself. You are dealing with a very sensitive situation. 
+                    Take one step at a time. Slow progress is still progress. Don’t try to 
+                    overload yourself with exercise. Seek a healthy balance in a way 
+                    you see fit.</li>
+                <li>Stick to a healthy diet. Remember, the better you feel, the better your 
+                    mood will be.</li>
+                <li>Find a circle you can open up to. Talk to them about the struggle. 
+                    Having a clean chest and a free mind helps more than you 
+                    would realize.</li>
+            </ul><br>
+
+            <h3><strong>Medication (as prescribed) for mood swings</strong></h3>
+            <p>Based on the cause of your mood swings your health care provider will start you 
+                on prescribed medication. Make sure you follow up on them as advice. No more or no less. 
+                Avoid taking anything that is not prescribed without your health 
+                care provider’s advice.</p>
+            <p>These medications can include</p>
+            <ul>
+                <li>medication for anti-anxiety</li>
+                <li>anti-psychotic medication</li>
+                <li>antidepressant</li>
+                <li>pills to help you sleep</li>
+            </ul><br>
+
+            <h2 class="mt-3" id="topic-5">Signs that it is time to get help for your mood swings</h2>
+            <p>People may have been telling you that you are hard to be with because your mood 
+                changes often. You may have not cared because it is normal. However, when do you
+                 know that it is not normal anymore? What are the signs that it is time to 
+                 reach out for 
+                 <a href="https://epsychiatry.com.au/clinicians/">professional help</a> and make some important changes in your life? 
+                 Below are a few.</p>
+            <p>Unless you know you are under medication, have a diagnosed mental health 
+                condition, or going through a major hormonal phase such as menopause, 
+                pregnancy, or PMS, mood swings that come to a point of destroying your 
+                relationships should be an alarming issue. This means others find it hard 
+                to depend on you, predict your behavior, and thus it feels like it is hard 
+                to know who they are hanging out with.</p>
+            <p>If your boyfriend, girlfriend, friends, or family tell you, scold you, or 
+                even joke about your extreme mood swings, it may be time to reach out for 
+                help and do changes in your life that will help your mood. However, even 
+                after such alterations if you feel like the mood swings do not get better, 
+                it is vital to reach out for medical help. This may be an indication of an 
+                undiagnosed mental health problem that needs to be treated.</p>
+            <p>If you have regular mood swings, caused by the smallest inconveniences, 
+                if these mood swings are intense making you extremely happy, angry, or sad, 
+                if the mood swings don’t go down easily and are likely to last a while, 
+                pushes you to act on impulse making you do things and say things without 
+                thinking, and are possibly making you want to harm yourself or another, 
+                it is high time you 
+                seek <a href="https://epsychiatry.com.au/contact-us/">professional help</a>.</p><br>
+
+            <h2 class="mt-3" id="topic-6">Ways to prevent mood swings</h2>
+            <p>In basic terms, whatever keeps an individual in a good mood is the way they 
+                can prevent mood swings. So, apart from this list, whatever you think will 
+                keep you in a good mood is what you should try. This list is a collection 
+                of proven points that help one better their quality of life, improve their 
+                mood, and overall make them a healthy, focused, and content individual.</p>
+            <p>Adding to that is the fact that mood swings are completely normal. 
+                By following up with this list we understand how to make sure mood swings 
+                become a problem. Especially if you are someone who used to suffer from 
+                terrible mood swings and are now slowly on your path to recovery.</p><br>
+
+            <h3><strong>Day-to-day routine</strong></h3>
+            <p>Have a daily routine. This includes regulating the times you take meals, 
+                the hours you go to sleep. However, this does not necessarily mean not to 
+                change things as you go along the day. The point is to regulate healthy 
+                habits so you don’t fall back on your game to preventing mood swings.</p><br>
+
+            <h3><strong>Watch what goes in your body</strong></h3>
+            <p>Stick to healthy food. You may have enjoyed junk food very much, 
+                but it may also be causing your mood swings by messing with your 
+                insides since junk food is in no way to be a healthy person. The 
+                healthier you are, the happier you will be.</p><br>
+
+            <h3><strong>Rest well to deal better with mood swings</strong></h3>
+            <p>Make sure you are well rested before starting the day. One cranky day 
+                will be enough to reverse all your efforts. No sleep means your body has 
+                not had the chance to recover from yesterday’s exhaustion. Thus, 
+                throughout the day it will be pulling you back to get some much-needed rest. 
+                Needless to say, this is not going to end well. In other words, 
+                make sure you get enough sleep.</p><br>
+
+            <h3><strong>Get some exercise done</strong></h3>
+            <p>Stay active! When you feel better and look better you are likely to be 
+                so confident, healthy, and happy that not many illnesses can get a 
+                hold of you and not many things can affect your mood. Make sure you 
+                take in that workout and cardio.</p><br>
+
+            <h3><strong>Stay away from stress as much as you can</strong></h3>
+            <p>Try to manage stress. Ditch stressful situations when you can. 
+                However, avoiding stress completely is impossible. You could be doing so 
+                well until you slip on a banana peel on the way home. Thus, the point is 
+                to find ways to stay calm during the most stressful times. You can do this 
+                by adding meditation, mindfulness practices, and yoga to your daily 
+                routine. A calm person is unlikely to suffer from rapid mood swings.</p><br>
+
+            <h3>Track your progress on emotional ups and downs</h3>
+            <p>Track your mood. See if the changes you made recently work out for the 
+                better or worse. If it is for the better, stick to it. Also, if it 
+                doesn’t help, try to switch things up. If nothing seems to work, 
+                reach out to professional help.</p><br>
+
+            <h3><strong>A healthy circle!</strong></h3>
+            <p>As we mentioned before, a happy and healthy circle full of people you 
+                adore can impact your mood very well. It is important you find those that 
+                give you good vibes and unlikely to trigger negative moods. They 
+                should also be people you can rely on so in the case of relapse they 
+                understand and help you get better.</p><br>
+
+            <h3><strong>Try counseling for mood swings</strong></h3>
+            <p>Counseling can help you get to the bottom of your mood swings if other 
+                mental health possibilities are ruled out. If you have a disease that 
+                needs to be cured by medicine, you can talk to your counselor about that. 
+                Counselors are trained to help their patients get through whatever impacts 
+                their mentality negatively. Even if your mood swings are a side effect 
+                caused by another illness and especially if your mood swings are the 
+                result of a different incident or a stressful situation, counselors 
+                are there to make your life better.</p><br>
+
+            <h3><strong>Have faith in yourself</strong></h3>
+            <p>Stick to your treatment plan. Don’t fall behind on your progress even If 
+                you feel like it is exhausting and takes a lot of effort. It is important 
+                that you understand that none of the advice, counseling, or medication 
+                will help if you do not put forward the work that is necessary. Thus, 
+                stick to the new altering you have don’t to better the quality of your 
+                life. Make sure your diet is healthy and make sure you sleep well. 
+                Take the medicine on time. You need to trust in your progress and have 
+                faith in yourself.</p><br>
+
+            <h3><strong>Be kind to yourself</strong></h3>
+            <p>Only those suffering from rapid mood swings understand the stress it 
+                causes to be extremely happy and to have a small thing ruin it all. 
+                These victims do not want to go through all that emotional ups and downs. 
+                However, they have to and their effort to do otherwise can be draining. 
+                Therefore, if you are someone who has to try extra hard to contain your 
+                mood and stay calm in a storm, understand that you are doing a lot of 
+                sensitive work for yourself.</p>
+                
+            <p>You are also giving up a lot for it. Thus, be nicer to yourself. Be kinder. 
+                Give yourself time to make your way back up. Progress may not come overnight. 
+                However, as long as you respect your body and your mind for the workload it
+                 puts up to get you through, it is unlikely you give up. If nobody else roots 
+                 for you, root for yourself.</p><br>
+        </div>
+    </div>
+</div>
+<!-- end of para section-->
+
+<!-- Footer -->
+<div id="footer"></div>
+<!-- Site footer -->
+<!-- <footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                <h6>Contact us</h6>
+                <form>
+                    <div class="mb-3">
+                        <input class="form-control" id="contact-us-name" placeholder="Name*" required
+                               style="max-width: 350px" type="text">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" id="contact-us-email" placeholder="E-mail*" required
+                               style="max-width: 350px" type="email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="contact-us-message" placeholder="Message*" required
+                                  rows="5" style="max-width: 350px"></textarea>
+                    </div>
+                    <button class="btn btn-primary" style="margin-bottom: 5px;" type="submit">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <h6>Important</h6>
+                <p class="text-justify">This is not an emergency service. Same day consults are not available.
+                    If you are in distress please contact your nearest emergency department,
+                    your local area mental health service triage or dial “000</p>
+            </div>
+
+            <div class="col-xs-6 col-md-4">
+                <h6>Learn More</h6>
+                <ul class="footer-links">
+                    <li><a href="">Psychology via Telehealth Benefits</a></li>
+                    <li><a href="">Five reasons to see a psychologist</a></li>
+                    <li><a href="">Professional Mental Health Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container mt-3" style="text-align: center">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2021 Epsychiatry Pty. Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer> -->
+<!-- ./Footer -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
